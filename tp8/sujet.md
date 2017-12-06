@@ -40,7 +40,8 @@ Le schéma ci-dessous, illustre, sur un autre exemple, le principe que nous souh
 La classe ArtisteManager contiendra les méthodes suivantes :
 
 * addArtiste(Artiste $artiste) : L’argument de cette méthode est une instance de la classe Artiste. Elle génère une requête 
-‘INSERT INTO...’ et l’exécute. Elle permet l’ajout d'un Artiste dans la table.  
+‘INSERT INTO...’ et l’exécute. Elle permet l’ajout d'un Artiste dans la table. Cette méthode retourne le dernier id inséré 
+([lastInsertId](http://php.net/manual/fr/pdo.lastinsertid.php)) 
 * getById($id) : L’argument permet de sélectionner l’enregistrement que l’utilisateur de l’application souhaite modifier. 
 Elle est donc appelée par l’application. Cette méthode retourne une instance de la classe Artiste dont les propriétés sont 
 initialisées avec les valeurs de l'Artiste sélectionné.   
