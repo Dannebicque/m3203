@@ -92,6 +92,52 @@ L’intérêt de cette technique est de simplifier le code en le réduisant le n
 * Constructeur : est tout simplement un appel de la fonction Hydrate. 
 * Update() est une méthode qui appelle la méthode hydrate pour mettre à jour un objet
 
+## La classe Artiste et Humain
+
+Avec cette nouvelle approche, il faut modifier la classe Artiste et la classe Humain.
+
+Il faut d'abord s'assurer d'avoir tous les setters pour les différentes propriétés.
+
+Ensuite, si vous étudiez le fichier tp8.php, vous devez remarquer que l'appel du constructeur d'Artiste est différent. Il n'utulise plus qu'un seul paramêtre. Ce paramêtre est un tableau associatif. Il est donc possible d'utiliser l'une des deux approches ci-ddesous
+
+### Sans passer par la méthode hydrate
+
+```php
+class Artiste
+{
+    ...
+    public function __construct($donnees)
+    {
+        parent::__construct($donnees['nom'], $donnees['prenom'], $donnees['datenaissance'])
+        $this->image = $donnees['image'];
+        $this->specialite = $donnees['specialite'];
+    }
+    ...
+}
+```
+
+Cette solution est rapide à mettre en place et n'implique pas forcément d'avoir tous les setters. Elle n'implique pas non plus de bien comprendre le concept d'hydratation. Chaque paramêtre précédent est remplacé par son équivalent dans le tableau.
+
+** Faites attentions aux dénominations ! Elles ne sont pas forcément identiques à votre code **
+
+### Avec la méthode hydrate
+
+```php
+class Artiste
+{
+    ...
+    public function __construct($donnees)
+    {
+        $this->hydrate($donnees);
+    }
+    ...
+}
+```
+
+Cette solution utilise l'hydratation (**Il faut placer la méthode au bon endroit**), et implique d'avoir les setters pour toutes les propriétés (**n'oubliez pas les parents**).
+
+** Notez que cette méthode n'utilise plus l'appel à parent::__construct(...), puisque l'hydrate passe par les setters.**
+
 ## Travail à Faire
 
 * Ecrire la classe ArtisteManager
