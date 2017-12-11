@@ -31,7 +31,7 @@ class ArtisteManager {
   
   public function __construct ($login, $password, $serveur, $bdd)
   {
-      $this->db = new PDO('mysql:dbname=$'.$bdd.';host='.$serveur.'", $login, $password);
+      $this->db = new PDO('mysql:dbname='.$bdd.';host='.$serveur.'", $login, $password);
   }
   ...
 }
