@@ -19,6 +19,55 @@ Faire également le lien avec le formulaire livre pour récupérer une liste, pr
 
 **Vous devez faire valider le bon fonctionnement en fin de séance**
 
+## Terminer le TP précédent et la classe ArtisteManager
+
+Eléments de corrections :
+
+Le constructeur de la classe ArtisteManager :
+
+```php
+class ArtisteManager {
+  private $db;
+  
+  public function __construct ($login, $password, $serveur, $bdd)
+  {
+      $this->db = new PDO('mysql:dbname=$'.$bdd.';host='.$serveur.'", $login, $password);
+  }
+  ...
+}
+```
+
+Le constructeur d'Artiste devient :
+
+```php
+class Artiste {
+  ...
+  protected $id; //Contiendra l'Id de l'Artiste dans la base
+  
+  public function __construct ($donnees)
+  {
+      $this->hydrate($donnees);
+  }
+  ...
+}
+```
+
+La méthode addArtiste pourrait être :
+
+```php
+class Artiste {
+  ...
+  
+  public function addArtiste(Artiste $artiste) {
+        $requete = 'INSERT INTO Artiste (nom, prenom, datenaissance, image, specialite) VALUES ("'.$artiste->getNom().'", "'.$artiste->getPrenom().'", "'.$artiste->getDateNaissance().'", "'.$artiste->getImage().'", "'.$artiste->getSpecialite().'")';
+        $this->db->query($requete);
+
+        return $this->db->lastInsertId(); // pour récupérer l'Id
+    }
+  ...
+}
+```
+
 ## Amélioration de ArtisteManager
 
 Nous allons améliorer la classe ArtisteManager en Ajoutant les méthodes suivantes :
