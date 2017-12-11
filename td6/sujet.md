@@ -55,7 +55,7 @@ class Artiste {
 La méthode addArtiste pourrait être :
 
 ```php
-class Artiste {
+class ArtisteManager {
   ...
   
   public function addArtiste(Artiste $artiste) {
