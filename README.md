@@ -26,7 +26,7 @@ Les TD et TP suivant seront évalués sur 3 points, et permettront d'établir un
 * [TP8 : Base de données](tp8/sujet.md)
 * [TD6 : Base de données](td6/sujet.md)
 * [TP9 : Base de données](tp9/sujet.md)
-* [TP10 : TP Noté](tp10/sujet.md) le 20/12 à 8h00 ou 9h30
+* [TP10 : TP Noté](tp10/sujet.md) le 20/12 à 8h00, 9h30 ou 11h00. Support de cours et TP autorisés.
 * [CM3 : Evaluation](cm3/sujet.md) le 20/12 à 15h30
 
 
