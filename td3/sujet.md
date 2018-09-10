@@ -1,6 +1,4 @@
-
-
-## TD3 encapsulation
+## Séance 3 : encapsulation
 
 ### Rappels de Cours
 
