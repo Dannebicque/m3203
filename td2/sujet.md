@@ -6,6 +6,10 @@
 *	Mettre en œuvre les concepts de classe et d’objet
 *	Construire une application PHP Orienté Objet
 
+----------
+Pour les TD et TP de POO nous allons travailler en local pour gagner en efficacité et éviter de devoir uploader le code sur un serveur pour tester. Nous allons donc installer un serveur local. Pour les utilisations de **Windows** vous pouvez utiliser *WampServer*, pour les utilisateurs d'**Apple**, vous pouvez utiliser *MAMP*.
+----------
+
 ###	Enoncé et travail à faire
 
 Les propriétés
