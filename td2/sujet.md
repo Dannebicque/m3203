@@ -1,4 +1,4 @@
-## TD2 Concepts de la POO
+## Séance 2 : Concepts de la POO
 
 ###	Objectifs
 
