@@ -1,7 +1,8 @@
-# TP N°1 : Héritage
+# Séance 4 : Héritage
 
 ##	Objectifs DU TD
 
+*	Utiliser des outils du domaine, adaptés aux problèmatiques
 *	Comprendre le concept d’héritage.
 *	Mettre en oeuvre le concept d’héritage : aidez-vous des TD précédents pour écrire le code demandé.
 
@@ -80,18 +81,20 @@ l'héritage est un grand principe de la programmation orientée objet. Une class
 	echo '<br>';
 ?>
 ````
+## Utilisation des outils
 
+[Guide d'installation et d'utilisation de PHPStorm](https://dannebicque.github.io/m3203/phpstorm/readme.md)
 
-##	EXERCICE N°1
+## EXERCICE N°1
 
-###	Créer la classe Animal (animal.php) – [Voir TD2](https://dannebicque.github.io/m3203/td2/sujet.md)
+### Créer la classe Animal (animal.php) – [Voir séance 2](https://dannebicque.github.io/m3203/td2/sujet.md)
 
 La classe Animal possède 5 propriétés :
 
 1.	Le nom de l’animal
 2.	L’âge (actuel)
 3.	L’âge théorique maximum
-4.	Le régime alimentaire : tableau d’aliments ([Voir TD1](https://dannebicque.github.io/m3203/td1/sujet.md))
+4.	Le régime alimentaire : tableau d’aliments ([Voir séance 1](https://dannebicque.github.io/m3203/td1/sujet.md))
 5.	état: ‘mort’ ou ‘vivant’ (par défaut, état =’vivant’)
 
 La classe possède les méthodes suivantes :
