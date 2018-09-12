@@ -7,35 +7,35 @@
 *	Construire une application PHP Orienté Objet
 
 ----------
-Pour les TD et TP de POO nous allons travailler en local pour gagner en efficacité et éviter de devoir uploader le code sur un serveur pour tester. Nous allons donc installer un serveur local. Pour les utilisations de **Windows** vous pouvez utiliser *WampServer*, pour les utilisateurs d'**Apple**, vous pouvez utiliser *MAMP*.
+Pour les TD et TP de POO nous allons travailler en local pour gagner en efficacité et éviter de devoir uploader le code sur un serveur pour tester. Nous allons donc installer un serveur local. Pour les utilisateurs de **Windows** vous pouvez utiliser *WampServer*, pour les utilisateurs d'**Apple**, vous pouvez utiliser *MAMP*.
 ----------
 
 ###	Enoncé et travail à faire
 
-Les propriétés
+#### Les propriétés
 
 Une voiture est un **OBJET** du monde réel. Il se caractérise par :
 *	Sa marque
 *	Sa puissance en CV
 *	Son kilométrage
 
-Les méthodes
+#### Les méthodes
 
 Utiliser une voiture a pour effet d’augmenter la valeur du kilométrage.
 On souhaite pouvoir lire les caractéristiques de la voiture
 
 
 
-Programmation :
+#### Programmation
 
-*	Le code de la classe Voiture doit être enregistré dans le fichier **voiture.php**
-*	Le code de l’application doit être enregistré dans le fichier **td2_voiture.php**. 
+*	Le code de la classe Voiture (avec une majuscule) doit être enregistré dans le fichier **voiture.php** (sans majuscule)
+*	Le code de l’application doit être enregistré dans le fichier **tp1_voiture.php**. 
 * Utilisez la commande *require* pour appeler la classe Voiture dans l’application.
 
 1.	Ecrire la classe pour définir les propriétés et les méthodes de l’objet Voiture
 2.	Ecrire une application :
 
-*qui instanciera les deux voitures suivantes
+* qui instanciera les deux voitures suivantes
 
 | Nom de la voiture | marque   | puissance | kilometrage |
 | ----------------- | -------- | --------- | ----------- |
@@ -46,4 +46,6 @@ Programmation :
 *	qui modifie la puissance de la voiture1 : nouvelle valeur 110
 *	qui affiche le kilométrage des voitures après un déplacement : la voiture 1 parcoure 3500 km et la voiture2 parcoure 1500 km.
 
+#### Exercice 2
 
+Considérant qu'un chien est caractérisé par sa race, son age et son poids, définissez une classe permettant de le représenter. Un chien est par ailleur un animal qui vieillit, et qui peut prendre du poids. Complétez la classe avec les deux méthodes permettant d'intégrer ces actions.
