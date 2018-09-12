@@ -46,6 +46,6 @@ On souhaite pouvoir lire les caractéristiques de la voiture
 *	qui modifie la puissance de la voiture1 : nouvelle valeur 110
 *	qui affiche le kilométrage des voitures après un déplacement : la voiture 1 parcoure 3500 km et la voiture2 parcoure 1500 km.
 
-#### Exercice 2
+## Exercice 2
 
 Considérant qu'un chien est caractérisé par sa race, son age et son poids, définissez une classe permettant de le représenter. Un chien est par ailleur un animal qui vieillit, et qui peut prendre du poids. Complétez la classe avec les deux méthodes permettant d'intégrer ces actions.
