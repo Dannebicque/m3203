@@ -2,18 +2,18 @@
 
 ### Rappels de Cours
 
-L’encapsulation consiste à déclarer les propriétés (attributs) en private au lieu de public.
-Pourquoi ? Pour l’intégrité des données, c’est-à-dire pour que les propriétés ne prennent pas n’importe quelles valeurs. 
+L’encapsulation consiste à déclarer les propriétés (attributs) en **private** (ou protected) au lieu de public.
+**Pourquoi ?** Pour l’intégrité des données, c’est-à-dire pour que les propriétés ne prennent pas n’importe quelles valeurs. 
 Le programmeur d’une classe va ainsi construire un code fiable. Le programmeur utilisant de cette classe n’aura pas à se 
 préoccuper de l’intégrité du code qu’il utilise.
 
 L’unique façon d’assurer d’y arriver est donc de rendre inaccessible les attributs sauf en créant des méthodes publiques 
 qui permettront de s’assurer que les valeurs prises restes dans celles admises. Ces méthodes filtrent donc l’usage des 
-attributs.
+attributs. On appelle une méthode publique qui permet d'accéder à une propriété un *getter* (car commence en général par getXxxx) ou un *accesseur*, et on nomme une méthode publique qui permet de définir ou de modifier une propriété un *setter* (car commence en général par setXxxx) ou un *mutateur*.
 
-Remarque : il est possible de déclarer des méthodes privées. Cela permet de renforcer la stabilité du code et ces évolutions.
+Remarque : il est possible de déclarer des méthodes privées (qui ne seront utilisée que dans la classe elle même). Cela permet de renforcer la stabilité du code et ces évolutions.
 
-###	Objectifs DU TD
+###	Objectifs de la séance
 
 *	Comprendre le concept d’encapsulation.
 *	Mettre en œuvre l’encapsulation
@@ -53,9 +53,9 @@ Voici le code la classe Personne.
 ?>
 ```
 
-Les propriétés sont déclarées « private ».
+Les propriétés sont déclarées **private**.
 
-Voici le code de l’application td3_exo1.php.
+Voici le code de l’application seance3_exo1.php.
 
 ```php
 <?php
@@ -78,9 +78,9 @@ Voici le code de l’application td3_exo1.php.
 ```
 
 A FAIRE
-*	Créez les deux fichiers personne.php et td3_exo1.php.
-*	Testez td3_exo1.php et répondez aux questions
-*	Pourquoi l’exécution du code de td3_exo1.php renvoie une erreur ?
+*	Créez les deux fichiers personne.php et seance3_exo1.php.
+*	Testez seance3_exo1.php et répondez aux questions
+*	Pourquoi l’exécution du code de seance3_exo1.php renvoie une erreur ?
 *	Donnez une solution simple pour permettre l’exécution normale de ce code
 
 ###	EXERCICE 2
@@ -127,7 +127,7 @@ Code de la classe Personne2
 ?>
 ```
 
-Voici le code de l’application td3_exo2.php
+Voici le code de l’application seance3_exo2.php
 
 ```php
 <?php
@@ -153,8 +153,8 @@ Voici le code de l’application td3_exo2.php
 ```
 
 A FAIRE
-*	Créez une nouvelle version du code de la classe (Personne2) et de l’application (td3_exo2)
-*	Testez td3_exo2.php
+*	Créez une nouvelle version du code de la classe (Personne2) et de l’application (seance3_exo2)
+*	Testez seance3_exo2.php
 
 ###	Exercice N°3
 
@@ -176,12 +176,12 @@ Les méthodes
 Cahier des charges :
 L’adresse IP doit être une adresse valide.
 
-####	Ecrire l’application td3_exo3.php
+####	Ecrire l’application seance3_exo3.php
 
 ```php
 <?php
 	//----------------------------------------------------
-	// fichier : td3_exo3.php
+	// fichier : seance3_exo3.php
 	// ---------------------------------------------------
 	// Notion d'encapsulation : protection des propriétés
 	// de l'objet.	
