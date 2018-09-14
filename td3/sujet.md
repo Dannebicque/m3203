@@ -201,3 +201,7 @@ L’adresse IP doit être une adresse valide.
 ```
 * Testez le code
 
+#### Questions complémentaires
+
+* modifier la classe Connexion_SQL pour vous assurer que l'IP donnée par l'utilisateur est dans un format valide. Sinon, afficher un message d'erreur.
+
