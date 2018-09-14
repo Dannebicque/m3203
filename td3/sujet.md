@@ -109,7 +109,7 @@ Code de la classe Personne2
 
   		// Définition de la fonction constructeur 
  		public function __construct($n,$p,$a) { 
-			$this->set_nom($n);
+			$this->setNom($n);
 			$this->prenom=$p;
 			$this->age=$a;
 		}  
