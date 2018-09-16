@@ -1,4 +1,4 @@
-# TP 3 : Interfaces
+# Séance 7 : Interfaces
 
 ## Cours
 
