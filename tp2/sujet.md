@@ -1,15 +1,14 @@
 
 
-# TP N°2 :  Héritage & Encapsulation
+# Séance 5 :  Héritage & Encapsulation
 
 ## Cours
 
-Nous avons vu dans le TD3 le principe de l’encapsulation et dans le TP1 le principe de l’héritage. Voyons maintenant comment 
+Nous avons vu dans la séance 3, le principe de l’encapsulation et dans la séance 4 le principe de l’héritage. Voyons maintenant comment 
 combiner les deux.
 
 Principe : L’encapsulation consiste à déclarer **PRIVATE** les propriétés de la classe. Cela reste vrai qu’il y ait 
-héritage au non. Mais dans le cas de l’héritage, les propriétés déclarées **PRIVATE** ne sont accessibles que par la classe 
-Mère. La classe Fille ne peut accéder aux propriétés héritées que si elles ont été déclarées en **PROTECTED**. Donc dans le cas 
+héritage au non. Mais dans le cas de l’héritage, les propriétés déclarées **PRIVATE** ne sont accessibles que dans la classe déclarant ces propriétés. Une classe Fille ne peut accéder aux propriétés héritées que si elles ont été déclarées en **PROTECTED**. Donc dans le cas 
 de l'héritage on choisira de déclarer les propriétés en **PROTECTED** pour faciliter la manipulation des propriétés par les 
 classes filles.
 
