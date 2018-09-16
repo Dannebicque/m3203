@@ -10,6 +10,7 @@ Vous trouverez sur ce site tous les supports de cours pour le module de M3203 du
 * [TD2 : encapsulation](td3/sujet.md)
 * [TP2 : Héritage](tp1/sujet.md)
 * [TP3 : Héritage et encapsulation](tp2/sujet.md)
+* [CM2 : Rappels, nouveaux concepts (méthodes magiques), UML et présentation de PHPStorm](CM1_M3203_POO_1617.pptx)
 * [TD3 : Héritage multiple et classes abstraites](td4/sujet.md)
 * [TP4 : Interfaces](tp3/sujet.md)
 
@@ -18,7 +19,7 @@ Vous trouverez sur ce site tous les supports de cours pour le module de M3203 du
 Les TD et TP suivant seront évalués sur 3 points, et permettront d'établir une note de TP. La dernière séance de TP sera un TP noté individuel.
 
 * [TP5 : Pour se remettre dans le bain](tp4/sujet.md)
-* [CM2 : Rappels, nouveaux concepts (méthodes magiques), et UML](CM1_M3203_POO_1617.pptx)
+
 * [TD4 : Création de la structure](tp5/sujet.md)
 * [TP6 : Formulaires](td5/sujet.md)
 * [TD5 : Formulaires](tp6/sujet.md)
