@@ -2,7 +2,6 @@
 
 ##	Objectifs DU TD
 
-*	Utiliser des outils du domaine, adaptés aux problèmatiques
 *	Comprendre le concept d’héritage.
 *	Mettre en oeuvre le concept d’héritage : aidez-vous des TD précédents pour écrire le code demandé.
 
@@ -81,9 +80,6 @@ l'héritage est un grand principe de la programmation orientée objet. Une class
 	echo '<br>';
 ?>
 ````
-## Utilisation des outils
-
-[Guide d'installation et d'utilisation de PHPStorm](https://dannebicque.github.io/m3203/phpstorm/readme.md)
 
 ## EXERCICE N°1
 
