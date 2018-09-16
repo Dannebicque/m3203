@@ -1,4 +1,4 @@
-# TD N°4 : Héritage multiple
+# Séance 6 : Héritage multiple
 
 ## Cours
 
