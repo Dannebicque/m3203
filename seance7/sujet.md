@@ -78,10 +78,10 @@ class Personne implements iPersonne {
 }
 ````
 
-##	Exercice
+##	Exercice 1
 
 Nous vous proposons d’analyser le code ci-dessous puis de l’écrire pour le tester.
-Puis ajouter la déclaration public function ajoutsaut() dans l’interface et dans votre classe, puis tester à nouveau. Pensez à ajouter des appels de cette nouvelle méthode dans le fichier de test td7.php.
+Puis ajouter la déclaration public function ajoutsaut() dans l’interface et dans votre classe, puis tester à nouveau. Pensez à ajouter des appels de cette nouvelle méthode dans le fichier de test seance7.php.
 
 Code de html.php
 
@@ -128,7 +128,7 @@ class HTML implements iEdition
 ?>
 ````
 
-Code de td7.php
+Code de seance7.php
 
 ````php
 <?php
@@ -147,4 +147,24 @@ echo $doc->affiche();
 ?>
 ````
 
-## Finaliser le TD précédent, et commencer le TP suivant (qui sera noté)
+## Exercice 2
+
+Soit l'interface suivante :
+
+````php
+<?php
+interface iEleve
+{  
+	public function afficheNomPrenom();
+	public function convoque($date, $heure);
+	public function ajouteNote($note);
+	public function afficheNotes();
+}
+````
+
+Implémenté la classe associée à cette interface (iEleve) et un exemple de code pour chacune des méthodes définies.
+
+La classe comprendra les propriétés suivantes :
+* Nom,
+* Prénom,
+* TableauDeNotes

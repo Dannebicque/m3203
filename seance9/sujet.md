@@ -1,4 +1,4 @@
-# TP 5 : Reprenons doucement
+# Séance 9 : Reprenons doucement
 
 Les TP qui vont suivre ont un lien entre eux. L'objectif est d'aboutir à une petite application permettant de gérer une collection de livre, et d'obtenir une sauvegarde dans une base de données. Pour simplifier le problème, nous ne nous formaliserons pas avec un structure MVC dans ces TP.
 

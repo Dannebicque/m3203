@@ -1,4 +1,4 @@
-# TP N°4 : Revoir les concepts en autonomie
+# Séance 8 : Revoir l'ensemble des concepts
 
 ## OBJECTIFS :
 

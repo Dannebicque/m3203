@@ -1,5 +1,7 @@
 ## Séance 3 : encapsulation
 
+**REVOIR CETTE SEANCE**
+
 ### Rappels de Cours
 
 L’encapsulation consiste à déclarer les propriétés (attributs) en **private** (ou protected) au lieu de public.
