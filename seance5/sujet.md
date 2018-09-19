@@ -32,7 +32,7 @@ Les méthodes sont
 *	La méthode parcourir($distance) qui cumule les kilomètres parcourus par le véhicule
 *	La méthode lire_caracteristiques() qui retourne les valeurs des propriétés du véhicule.
 
-** Nous avons déjà écrit cette classe dans le TD1. Vous pouvez/devez la reprendre et modifier la visibilité des propriétés**
+**Nous avons déjà écrit cette classe dans la [séance 2](https://dannebicque.github.io/m3203/seance2/sujet.md). Vous pouvez/devez la reprendre et modifier la visibilité des propriétés**
 
 La classe Voiture hérite de Vehicule.
 *	Elle possède en plus la propriété privée type qui permet de distinguer les berlines, des SUV, des 4x4 et des breaks (‘berline’,’suv’,’4x4’,’break’). 
@@ -41,13 +41,13 @@ Attention, seules ces valeurs sont possibles. Tout autre valeur est invalide et 
 
 ### A FAIRE
 
-*	Créez les deux classes dans un fichier nommé vehicule.php
-*	Créez une application td5.php :
-  *	Une instance de Vehicule. Exemple de votre choix
-  *	Deux instances de Voiture, Exemples à votre convenance.
-*	Testez votre application en utilisant les différentes méthodes des différentes instances.
+* Créez les deux classes dans un fichier nommé vehicule.php
+* Créez une application td5.php :
+    * Une instance de Vehicule. Exemple de votre choix
+    * Deux instances de Voiture, Exemples à votre convenance.
+* Testez votre application en utilisant les différentes méthodes des différentes instances.
 * Que se passe-t-il lorsque l'on appelle la méthode lire_caractéristique() sur une Voiture ? 
 Modifiez votre code pour que lire_caractéristique() puisse afficher toutes les informations de la voiture.
-* Créez une nouvelle clase, Bus, qui héritera de Véhicule et qui contiendra comme propriétés le nombre de 
+* Créez une nouvelle classe, Bus, qui héritera de Véhicule et qui contiendra comme propriétés le nombre de 
 place assise et le nombre d'essieux
 
