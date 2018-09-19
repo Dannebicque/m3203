@@ -14,37 +14,37 @@ Pour les TD et TP de POO nous allons travailler en local pour gagner en efficaci
 
 #### Les propriétés
 
-Une voiture est un **OBJET** du monde réel. Il se caractérise par :
+Un Véhicule est un **OBJET** du monde réel. Il se caractérise par :
 *	Sa marque
 *	Sa puissance en CV
 *	Son kilométrage
 
 #### Les méthodes
 
-Utiliser une voiture a pour effet d’augmenter la valeur du kilométrage.
-On souhaite pouvoir lire les caractéristiques de la voiture
+Utiliser un véhicule a pour effet d’augmenter la valeur du kilométrage.
+On souhaite pouvoir lire les caractéristiques du véhicule
 
 
 
 #### Programmation
 
-*	Le code de la classe Voiture (avec une majuscule) doit être enregistré dans le fichier **voiture.php** (sans majuscule)
-*	Le code de l’application doit être enregistré dans le fichier **tp1_voiture.php**. 
-* Utilisez la commande *require* pour appeler la classe Voiture dans l’application.
+*	Le code de la classe Vehicule (avec une majuscule) doit être enregistré dans le fichier **vehicule.php** (sans majuscule)
+*	Le code de l’application doit être enregistré dans le fichier **tp1_vehicule.php**. 
+* Utilisez la commande *require* pour appeler la classe Vehicule dans l’application.
 
-1.	Ecrire la classe pour définir les propriétés et les méthodes de l’objet Voiture
+1.	Ecrire la classe pour définir les propriétés et les méthodes de l’objet Vehicule
 2.	Ecrire une application :
 
-* qui instanciera les deux voitures suivantes
+* qui instanciera les deux véhicules suivants
 
-| Nom de la voiture | marque   | puissance | kilometrage |
-| ----------------- | -------- | --------- | ----------- |
-| voiture1          | RENAULT  | 90        | 15000       | 
-| Voiture2          | PEUGEOT  | 110       | 20000       | 
+| Nom du véhicule    | marque   | puissance | kilometrage |
+| ------------------ | -------- | --------- | ----------- |
+| vehicule1          | RENAULT  | 90        | 15000       | 
+| vehicule2          | PEUGEOT  | 110       | 20000       | 
 
-*	qui affiche les caractéristiques des deux voitures
-*	qui modifie la puissance de la voiture1 : nouvelle valeur 110
-*	qui affiche le kilométrage des voitures après un déplacement : la voiture 1 parcoure 3500 km et la voiture2 parcoure 1500 km.
+*	qui affiche les caractéristiques des deux véhicules
+*	qui modifie la puissance de la vehicule1 : nouvelle valeur 110
+*	qui affiche le kilométrage des véhicules après un déplacement : le vehicule1 parcoure 3500 km et la vehicule2 parcoure 1500 km.
 
 ## Exercice 2
 

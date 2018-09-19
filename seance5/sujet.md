@@ -32,7 +32,7 @@ Les méthodes sont
 *	La méthode parcourir($distance) qui cumule les kilomètres parcourus par le véhicule
 *	La méthode lire_caracteristiques() qui retourne les valeurs des propriétés du véhicule.
 
-**Nous avons déjà écrit cette classe dans la [séance 2](https://dannebicque.github.io/m3203/seance2/sujet.md). Vous pouvez/devez la reprendre et modifier la visibilité des propriétés**
+**Nous avons déjà écrit cette classe dans la [séance 2](seance2/sujet.md). Vous pouvez/devez la reprendre et modifier la visibilité des propriétés**
 
 La classe Voiture hérite de Vehicule.
 *	Elle possède en plus la propriété privée type qui permet de distinguer les berlines, des SUV, des 4x4 et des breaks (‘berline’,’suv’,’4x4’,’break’). 
