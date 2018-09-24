@@ -30,4 +30,8 @@ Les TD et TP suivant seront évalués sur 3 points, et permettront d'établir un
 * [TP10 : TP Noté](seance16/sujet.md) le 20/12 à 8h00, 9h30 ou 11h00. Support de cours et TP autorisés.
 * [CM3 : Evaluation](cm3/sujet.md) le 20/12 à 15h30
 
+## Trucs et astuces de PHPStorm
+
+[Trucs et astuces de PHPStorm](phpstorm/readme.md)
+
 

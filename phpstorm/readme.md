@@ -17,3 +17,9 @@ par ligne le programme en cours de construction. Certains environnements sont d�
 
 PhpStorm est un IDE payant, mais proposé gratuitement aux établissements scolaires. Vous pouvez récupérer une licence gràce à votre email 
 étudiant sur [Accès Etudiant](https://www.jetbrains.com/student/). PhpStorm est disponible sur PC, Apple et Linux.
+
+## Le dictionnaire en français
+
+Dans "settings > Editor > Spelling" vous pouvez ajouter un dictionnaire soit d'une nouvelle langue (le français par exemple), soit d'un langage de programmation.
+
+[Dictionnaire en français pour PhpStorm](fr.dic)
