@@ -6,7 +6,6 @@
 
 L’héritage est le moyen de spécialiser une classe sans compromettre son code original. PHP autorise l’héritage 
 multiple. Une classe pouvant être une classe fille mais aussi une classe parent.  (cf. exemple ci-dessous)
-Héritage multiple : L’héritage est le moyen de spécialiser une classe sans compromettre son code original. PHP autorise l’héritage multiple. Une classe pouvant être une classe fille mais aussi une classe parent.  (cf. figure 1)
 
 ````php
 <?php
