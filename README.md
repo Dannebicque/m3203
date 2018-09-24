@@ -10,7 +10,7 @@ Vous trouverez sur ce site tous les supports de cours pour le module de M3203 du
 * [Séance 3 (TD2) : encapsulation](seance3/sujet.md)
 * [Séance 4 (TP2) : Héritage](seance4/sujet.md)
 * [Séance 5 (TP3) : Héritage et encapsulation](seance5/sujet.md)
-* [CM2 : Rappels, nouveaux concepts (méthodes magiques), UML et présentation de PHPStorm](CM1_M3203_POO_1617.pptx)
+* [CM2 : Rappels, nouveaux concepts (méthodes magiques), UML et présentation de PHPStorm](CM1_M3203_POO_1718.pptx)
 * [Séance 6 (TD3) : Héritage multiple et classes abstraites](seance6/sujet.md)
 * [Séance 7 (TP4) : Interfaces](seance7/sujet.md)
 
