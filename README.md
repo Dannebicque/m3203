@@ -27,8 +27,8 @@ Les TD et TP suivant seront évalués sur 3 points, et permettront d'établir un
 * [Séance 13 (TP8) : Base de données](seance13/sujet.md)
 * [Séance 14 (TD6) : Base de données](seance14/sujet.md)
 * [Séance 15 (TP9) : Base de données](seance15/sujet.md)
-* [TP10 : TP Noté](seance16/sujet.md) le 20/12 à 8h00, 9h30 ou 11h00. Support de cours et TP autorisés.
-* [CM3 : Evaluation](cm3/sujet.md) le 20/12 à 15h30
+* [TP10 : TP Noté](seance16/sujet.md) Semaine du 16 au 19/10/2018. Support de cours et TP autorisés.
+* [CM3 : Evaluation](cm3/sujet.md) le 19/10/2018 à 8h00
 
 ## Trucs et astuces de PHPStorm
 
