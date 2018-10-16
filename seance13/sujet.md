@@ -119,7 +119,7 @@ class Artiste
 
 Cette solution est rapide à mettre en place et n'implique pas forcément d'avoir tous les setters. Elle n'implique pas non plus de bien comprendre le concept d'hydratation. Chaque paramêtre précédent est remplacé par son équivalent dans le tableau.
 
-** Faites attentions aux dénominations ! Elles ne sont pas forcément identiques à votre code **
+**Faites attentions aux dénominations ! Elles ne sont pas forcément identiques à votre code **
 
 ### Avec la méthode hydrate
 
@@ -137,7 +137,7 @@ class Artiste
 
 Cette solution utilise l'hydratation (**Il faut placer la méthode au bon endroit**), et implique d'avoir les setters pour toutes les propriétés (**n'oubliez pas les parents**).
 
-** Notez que cette méthode n'utilise plus l'appel à parent::__construct(...), puisque l'hydrate passe par les setters.**
+**Notez que cette méthode n'utilise plus l'appel à parent::__construct(...), puisque l'hydrate passe par les setters.**
 
 ## Travail à Faire
 
