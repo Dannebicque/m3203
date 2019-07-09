@@ -4,9 +4,9 @@ description: >-
   fonction en PHP.
 ---
 
-# Séance 1
+# Séance 1 : Révisions
 
-## TD1 : Révisions du PHP
+## Révisions du PHP
 
 Ce TD a pour objectif de faire un rappel sur les notions de tableau et de fonction en PHP :
 

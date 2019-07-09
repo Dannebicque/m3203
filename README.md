@@ -1,41 +1,14 @@
 # Organisation du cours
 
+Vous trouverez sur ce site tous les supports de cours pour le module de M3203 du DUT MMI de l'IUT de Troyes. Les sources nécessaires pour les différents TD et TP sont disponibles dans le dépôt GitHub associé.
 
+Le cours se décompose en deux parties.
 
-| \#\# Module M3203 : Programmation Orienté Objet |  |  |  |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
-|  |  |  | Vous trouverez sur ce site tous les supports de cours pour le module de M3203 du DUT MMI de l'IUT de Troyes. Les sources nécessaires pour les différents TD et TP sont disponibles sur ce dépôt GitHub. |
-|  |  |  |  |
-|  |  |  | \#\# Organisation du module |
-|  |  |  |  |
-|  |  |  | \* \[CM1 : Les concepts\]\(CM1\_M3203\_POO\_1617.pptx\) |
-|  |  |  | \* \[Séance 1 \(TD1\) : révisions\]\(seance1/sujet.md\) |
-|  |  |  | \* \[Séance 2 \(TP1\) : les concepts de la POO\]\(seance2/sujet.md\) |
-|  |  |  | \* \[Séance 3 \(TD2\) : encapsulation\]\(seance3/sujet.md\) |
-|  |  |  | \* \[Séance 4 \(TP2\) : Héritage\]\(seance4/sujet.md\) |
-|  |  |  | \* \[Séance 5 \(TP3\) : Héritage et encapsulation\]\(seance5/sujet.md\) |
-|  |  |  | \* \[CM2 : Rappels, nouveaux concepts \(méthodes magiques\), UML et présentation de PHPStorm\]\(CM2\_M3203\_POO\_1718.pptx\) |
-|  |  |  | \* \[Séance 6 \(TD3\) : Héritage multiple et classes abstraites\]\(seance6/sujet.md\) |
-|  |  |  | \* \[Séance 7 \(TP4\) : Interfaces\]\(seance7/sujet.md\) |
-|  |  |  |  |
-|  |  |  | \*\*Fin de la partie découverte de la POO\*\* |
-|  |  |  |  |
-|  |  |  | Les TD et TP suivant seront évalués sur 3 points, et permettront d'établir une note de TP. La dernière séance de TP sera un TP noté individuel. |
-|  |  |  |  |
-|  |  |  | \* \[Séance 8 \(TP5\) : Pour se remettre dans le bain\]\(seance8/sujet.md\) |
-|  |  |  |  |
-|  |  |  | \* \[Séance 9 \(TD4\) : Création de la structure\]\(seance9/sujet.md\) |
-|  |  |  | \* \[Séance 10 \(TP6\) : Formulaires\]\(seance10/sujet.md\) |
-|  |  |  | \* \[Séance 11 \(TD5\) : Formulaires\]\(seance11/sujet.md\) |
-|  |  |  | \* \[Séance 12 \(TP7\) : Formulaires - Finalisation du TD5 et TP6\]\(seance12/sujet.md\) |
-|  |  |  | \* \[Séance 13 \(TP8\) : Base de données\]\(seance13/sujet.md\) |
-|  |  |  | \* \[Séance 14 \(TD6\) : Base de données\]\(seance14/sujet.md\) |
-|  |  |  | \* \[Séance 15 \(TP9\) : Base de données\]\(seance15/sujet.md\) |
-|  |  |  | \* \[TP10 : TP Noté\]\(seance16/sujet.md\) Semaine du 16 au 19/10/2018. Support de cours et TP autorisés. |
-|  |  |  | \* \[CM3 : Evaluation\]\(cm3/sujet.md\) le 19/10/2018 à 8h00 |
-|  |  |  |  |
-|  |  |  | \#\# Trucs et astuces de PHPStorm |
-|  |  |  |  |
-|  |  |  | \[Trucs et astuces de PHPStorm\]\(phpstorm/readme.md\) |
+* Une première partie de découverte avec des exercices pratiques permettant de comprendre les bases de la POO. Ces exercices sont guidés, mais nécessitent de connaître son cours... 
+* La seconde partie est un projet avec un fil rouge. Des étapes sont proposées, mais vous être libre de l'ordre dans lequel les appliquer. Cette partie est moins guidées et implique d'avoir compris les enjeux de la POO. 
+
+La notation
+
+* La réalisation des exercices de découvertes et des questions complémentaires apportera 5 points.
+* La réalisation du projet fil rouge, tout au long des séances fera l'objet des 15 points complémentaires.
 
