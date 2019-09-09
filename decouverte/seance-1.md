@@ -139,15 +139,15 @@ foreach ($tableau_notes as ?? ) {
 
 On vous fournit le code suivant.
 
-1. Saisissez le code ci-dessous. Nommez le fichier nommé td1\_fonction.php puis testez-le
+1. Saisissez le code ci-dessous. Nommez le fichier nommé td1\_fonction.php
 
 {% code-tabs %}
 {% code-tabs-item title="td1\_fonction.php" %}
 ```php
 <?php
 // Déclaration de la fonction
-function affichage_footer(){
-  echo 'IUT de Troyes - Département MMI - Module M3203 Programmation objet';
+function affichage_footer(???){
+    // code
 }
 
 // Appel de la fonction
@@ -158,9 +158,15 @@ affichage_footer();
 {% endcode-tabs %}
 
 1. Modifiez le code pour :
-2. Créez une fonction footer
-3. Elle possède 3 arguments : le nom de l’IUT, le département et le nom du module
-4. Elle retourne une chaine de caractères qui est la concaténation des 3 arguments
-5. Ajoutez le code qui appellera la fonction footer et affichera la valeur qu’elle retourne.
-6. Comparez les deux fonctions affichage\_footer et footer.
+2. Créez une fonction footer qui possède 3 arguments : le nom de l’IUT, le département et le nom du module
+3. Elle retourne une chaine de caractères qui est la concaténation des 3 arguments
+4. Ajoutez le code qui appellera la fonction footer et affichera la valeur qu’elle retourne.
+5. Modifiez la fonction pour qu'elle prenne un paramètre contenant le logo de l'IUT et l'affiche dans le footer.
+
+{% hint style="info" %}
+Profitez de cette séance pour installer les outils nécessaires. 
+
+* Un IDE pour faciliter l'écriture du code PHPStorm par exemple \([https://www.jetbrains.com/student/](https://www.jetbrains.com/student/)\)
+* Un serveur local WAMP ou MAMP
+{% endhint %}
 
