@@ -25,7 +25,7 @@
 * [Séance 12 : Utilisation d'une base de données](mise-en-pratique/seance-12.md)
 * [Séance 13 : Utilisation d'une base de données et des formulaires](mise-en-pratique/seance-13.md)
 * [Séance 14 : Utilisation d'une base de données et des formulaires](mise-en-pratique/seance-14.md)
-* [Séance 15](mise-en-pratique/seance-15.md)
+* [Séance 15 : Finalisation](mise-en-pratique/seance-15.md)
 * [Séance 16 : TP Noté](mise-en-pratique/seance-16.md)
 
 ## PHPStorm
