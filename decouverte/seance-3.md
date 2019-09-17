@@ -17,10 +17,12 @@ Remarque : il est possible de déclarer des méthodes privées \(qui ne seront u
 
 Voici le code la classe Personne.
 
+{% code-tabs %}
+{% code-tabs-item title="personne.php" %}
 ```php
 <?php
     //----------------------------------------------------
-    // fichier : Personne.php
+    // fichier : personne.php
     // ---------------------------------------------------
     // Notion d'encapsulation : protection des propriétés
     // de l'objet.    
@@ -47,15 +49,19 @@ Voici le code la classe Personne.
     }
 ?>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Les propriétés sont déclarées **private**.
 
 Voici le code de l’application seance3\_exo1.php.
 
+{% code-tabs %}
+{% code-tabs-item title="seance3\_exo1.php" %}
 ```php
 <?php
     //----------------------------------------------------
-    // fichier : td3_exo1.php
+    // fichier : seance3_exo1.php
     // ---------------------------------------------------
     // Notion d'encapsulation : protection des propriétés
     // de l'objet.    
@@ -71,6 +77,8 @@ Voici le code de l’application seance3\_exo1.php.
     echo $etudiant->sePresente().'<br>'; // Je m'appelle Paul Durand et j'ai 19 ans 
 ?>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 A FAIRE
 
@@ -85,10 +93,12 @@ Nous allons ici modifier le code de la classe Personne pour répondre à un nouv
 
 Code de la classe Personne2
 
+{% code-tabs %}
+{% code-tabs-item title="personne2.php" %}
 ```php
 <?php
     //----------------------------------------------------
-    // fichier : Personne.php
+    // fichier : personne2.php
     // ---------------------------------------------------
     // Notion d'encapsulation : protection des propriétés
     // de l'objet.    
@@ -120,13 +130,17 @@ Code de la classe Personne2
     }
 ?>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Voici le code de l’application seance3\_exo2.php
 
+{% code-tabs %}
+{% code-tabs-item title="seance3\_exo2.php" %}
 ```php
 <?php
     //----------------------------------------------------
-    // fichier : td3_exo2.php
+    // fichier : seance3_exo2.php2
     // ---------------------------------------------------
     // Notion d'encapsulation : protection des propriétés
     // de l'objet.    
@@ -145,6 +159,8 @@ Voici le code de l’application seance3\_exo2.php
     echo $etudiant->sePresente().'<br>'; // Je m'appelle Paul DURAND et j'ai 19 ans (nom en majuscules)
 ?>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 A FAIRE
 
@@ -171,6 +187,8 @@ Les méthodes
 
 **Ecrire l’application seance3\_exo3.php**
 
+{% code-tabs %}
+{% code-tabs-item title="seance3\_exo3.php" %}
 ```php
 <?php
     //----------------------------------------------------
@@ -192,6 +210,8 @@ Les méthodes
 
 ?>
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 * Testez le code
 
