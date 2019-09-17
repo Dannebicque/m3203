@@ -169,8 +169,6 @@ Les méthodes
 * constructeur
 * lire\_connexion qui retourne adresseip, nombase et utilisateur.
 
-Cahier des charges : L’adresse IP doit être une adresse valide.
-
 **Ecrire l’application seance3\_exo3.php**
 
 ```php
