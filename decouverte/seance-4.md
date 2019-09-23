@@ -115,32 +115,6 @@ La classe possède les méthodes suivantes :
 * Appeler la méthode : vieillir\(6\)
 * Appeler la méthode : lire\_informations\(\)
 
-### EXERCICE N°2
-
-#### Compléter le fichier animal.php
-
-Ajouter la classe Chien qui hérite de la classe Animal.
-
-La classe Chien possède une propriété : nom familier
-
-Méthodes :
-
-* Constructeur
-* Méthode : seNomme\(\) qui retourne le nom familier
-* Méthode : lire\_informations\(\) surcharge la méthode de la classe Animal. Retourne le nom de l’animal, son age, son état \(mort ou vivant\) et le nom familier.
-
-#### Compléter l’application td4\_heritage
-
-* Créer l’instance $chien1 de la classe Chien
-
-  Nom : 'Chien', Age : 2,    Age théorique maximum : 20, etat : ‘vivant’,     Nom familier : ‘Médor’
-
-* Appeler la méthode : seNomme\(\) ;
-* Appeler la méthode : mange\(‘viande\)
-* Appeler la méthode : mange\(‘croquettes\)
-* Appeler la méthode : lire\_regime\(\)
-* Appeler la méthode : lire\_informations\(\) ;
-
 {% code-tabs %}
 {% code-tabs-item title="td4\_heritage.php" %}
 ```php
@@ -170,6 +144,32 @@ $bestiole->lire_informations();
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+### EXERCICE N°2
+
+#### Compléter le fichier animal.php
+
+Ajouter la classe Chien qui hérite de la classe Animal.
+
+La classe Chien possède une propriété : nom familier
+
+Méthodes :
+
+* Constructeur
+* Méthode : seNomme\(\) qui retourne le nom familier
+* Méthode : lire\_informations\(\) surcharge la méthode de la classe Animal. Retourne le nom de l’animal, son age, son état \(mort ou vivant\) et le nom familier.
+
+#### Compléter l’application td4\_heritage
+
+* Créer l’instance $chien1 de la classe Chien
+
+  Nom : 'Chien', Age : 2,    Age théorique maximum : 20, etat : ‘vivant’,     Nom familier : ‘Médor’
+
+* Appeler la méthode : seNomme\(\) ;
+* Appeler la méthode : mange\(‘viande\)
+* Appeler la méthode : mange\(‘croquettes\)
+* Appeler la méthode : lire\_regime\(\)
+* Appeler la méthode : lire\_informations\(\) ;
 
 #### Question Bonus
 
