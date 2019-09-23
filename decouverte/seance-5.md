@@ -49,7 +49,5 @@ La classe Voiture hérite de Vehicule.
 
   Modifiez votre code pour que lire\_caractéristique\(\) puisse afficher toutes les informations de la voiture.
 
-* Créez une nouvelle classe, Bus, qui héritera de Véhicule et qui contiendra comme propriétés le nombre de 
-
-  place assise et le nombre d'essieux
+* Créez une nouvelle classe, Bus, qui héritera de Véhicule et qui contiendra comme propriétés le nombre de place assise et le nombre d'essieux.
 
