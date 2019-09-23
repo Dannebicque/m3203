@@ -52,7 +52,7 @@ Soit une application instanciant la classe Personne
 
 L’exécution de cette application provoquera l’erreur suivante
 
-![Message d&apos;erreur](erreur.jpg)
+![Message d&apos;erreur si l&apos;interface n&apos;est pas respect&#xE9;e](../.gitbook/assets/erreur.jpg)
 
 car les méthodes sePresente\(\) et travaille\(\) n’ont pas été définies dans la classe Personne. Le contrat n’a pas été respecté !
 
@@ -79,7 +79,7 @@ class Personne implements iPersonne {
 
 ### Exercice 1
 
-Nous vous proposons d’analyser le code ci-dessous puis de l’écrire pour le tester. Puis ajouter la déclaration public function ajoutsaut\(\) dans l’interface et dans votre classe, puis tester à nouveau. Pensez à ajouter des appels de cette nouvelle méthode dans le fichier de test seance7.php.
+Nous vous proposons d’analyser le code ci-dessous puis de l’écrire pour le tester. Puis ajouter la déclaration public function `ajoutsaut()` dans l’interface et dans votre classe, puis tester à nouveau. Pensez à ajouter des appels de cette nouvelle méthode dans le fichier de test seance7.php.
 
 Code de html.php
 

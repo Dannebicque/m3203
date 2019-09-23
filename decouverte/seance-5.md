@@ -10,13 +10,13 @@ Principe : L’encapsulation consiste à déclarer **PRIVATE** les propriétés 
 
 Les visibilités suivantes existent en PHP et peuvent s'appliquer aux propriétés et aux méthodes.
 
-* **public** pourra etre appelé partout, on évitera d'utiliser cette solution sur les propriétés
-* **private** ne pourra etre appelé que dans la classe.
-* **protected** ne pourra etre appelé que dans la classe et les classes qui en hérite.
+* **public** pourra être appelé partout, on évitera d'utiliser cette solution sur les propriétés
+* **private** ne pourra être appelé que dans la classe.
+* **protected** ne pourra être appelé que dans la classe et les classes qui en hérite.
 
 ### Exercice
 
-La classe Vehicule possède les propriétés suivantes :
+La classe **Vehicule** possède les propriétés suivantes :
 
 * marque
 * puissance
@@ -25,8 +25,8 @@ La classe Vehicule possède les propriétés suivantes :
 Les méthodes sont
 
 * Le constructeur
-* La méthode parcourir\($distance\) qui cumule les kilomètres parcourus par le véhicule
-* La méthode lire\_caracteristiques\(\) qui retourne les valeurs des propriétés du véhicule.
+* La méthode `parcourir($distance)` qui cumule les kilomètres parcourus par le véhicule
+* La méthode `lire_caracteristiques()` qui retourne les valeurs des propriétés du véhicule.
 
 **Nous avons déjà écrit cette classe dans la** [**séance 2**](../seance2/sujet.md)**. Vous pouvez/devez la reprendre et modifier la visibilité des propriétés**
 
@@ -36,7 +36,7 @@ La classe Voiture hérite de Vehicule.
 
   Attention, seules ces valeurs sont possibles. Tout autre valeur est invalide et affichera une erreur.
 
-* La méthode lire\_type\(\) permet de connaître le type de véhicule.
+* La méthode `lire_type()` permet de connaître le type de véhicule.
 
 #### A FAIRE
 
