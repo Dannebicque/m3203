@@ -162,9 +162,9 @@ Ci-dessus, application, classe abstraite, instanciation impossible.
 
 une classe peut posséder des propriétés statiques. Ces propriétés ne sont pas des propriétés liées aux objets, mais des propriétés de classe. Il est ainsi possible d’exploiter cette caractéristique pour connaître par exemple le nombre d’instances créées. Cela s’avère particulièrement utile lors de la mise en œuvre de l’héritage. Mais pas seulement. \(cf. exemples ci-dessous\)
 
-![Propri&#xE9;t&#xE9; de classe](image/figure5.png)
+![Propri&#xE9;t&#xE9; de classe](../.gitbook/assets/figure5.png)
 
-![Application, afficher le nombre d&apos;instances cr&#xE9;&#xE9;es](image/figure6.png)
+![Exemple d&apos;utilisation d&apos;une propri&#xE9;t&#xE9; de classe](../.gitbook/assets/figure6.png)
 
 Dans le code ci-dessus, il est possible de connaître le nombre d’instances \(objets\) créées.
 
@@ -174,11 +174,11 @@ Dans le code ci-dessus, il est possible de connaître le nombre d’instances \(
 
 Voici la représentation UML du diagramme des classes à créer dans cet exercice.
 
-![Diagramme de Classe UML](image/uml.png)
+![Sch&#xE9;ma d&apos;h&#xE9;ritage des classes \(diagram UML de classe\)](../.gitbook/assets/uml.png)
 
 #### Classe VehiculeAMoteur
 
-Créer la classe Abstraite VehiculeAMoteur dont les caractéristiques sont les suivantes :
+Créer la classe **Abstraite** VehiculeAMoteur dont les caractéristiques sont les suivantes :
 
 * Propriétés
   * Type de moteur \(propriété encapsulée\)
@@ -186,8 +186,8 @@ Créer la classe Abstraite VehiculeAMoteur dont les caractéristiques sont les s
   * Nombre de véhicules \(propriété de la classe : Static\)
 * Méthodes
   * Le constructeur
-  * verificationtype\($type\) : cette méthode permet de vérifier que l’utilisateur de la classe utilisera bien le bon code pour la propriété Type moteur. Il vaut soit T, soit E. \(T pour Thermique, E pour Electrique\)
-  * verificationnbpassagers\($nombre\) : cette méthode permet de vérifier que l’utilisateur de la classe affecte bien une valeur numérique \(un entier\) au nombre de passagers.
+  * `verificationtype($type)` : cette méthode permet de vérifier que l’utilisateur de la classe utilisera bien le bon code pour la propriété Type moteur. Il vaut soit T, soit E. \(T pour Thermique, E pour Electrique\)
+  * _verificationnbpassagers\($nombre\)_ : cette méthode permet de vérifier que l’utilisateur de la classe affecte bien une valeur numérique \(un entier\) au nombre de passagers.
 
 #### Classe Voiture
 
@@ -198,7 +198,7 @@ Créer la classe Voiture qui hérite de la classe VehiculeAMoteur dont les carac
   * Puissance en chevaux 
 * Méthodes
   * Le constructeur
-  * Lirecaracteristiques\(\) qui retourne :
+  * `Lirecaracteristiques()` qui retourne :
     * Le type de moteur,
     * Le nombre de passagers
     * La marque
@@ -212,7 +212,7 @@ Créer la classe VoitureDeSport qui hérite de la classe Voiture. Il ne doit pas
   * Nb de secondes de zéro à  100 km/h
 * Méthodes :
   * Le constructeur 
-  * Lirecaracteristiques\(\) héritée de la classe Voiture et qui affiche en plus le nombre de secondes de zéro à cent.
+  * `Lirecaracteristiques()` héritée de la classe Voiture et qui affiche en plus le nombre de secondes de zéro à cent.
 
 #### Classe VoitureTourisme
 
@@ -223,8 +223,8 @@ Créer la classe VoitureTourisme qui hérite de la classe Voiture dont les carac
   * Kilométrage.
 * Méthodes :
   * Le constructeur
-  * Lirecaracteristiques\(\) héritée de la classe Voiture et qui retourne en plus la consommation et le kilométrage.
-  * utiliser\($distance\) : incrémente le kilometrage dun nombre de kilomètres donné en argument \($distance\)
+  * `Lirecaracteristiques()` héritée de la classe Voiture et qui retourne en plus la consommation et le kilométrage.
+  * `utiliser($distance)` : incrémente le kilométrage dun nombre de kilomètres donné en argument \(`$distance`\)
 
 #### Classe Camion
 
@@ -235,7 +235,7 @@ Créer la classe Camion qui hérite de la classe VehiculeAMoteur dont les caract
   * Nombre d’essieux
 * Méthodes
   * Le constructeur
-  * lirecaracteristiques\(\) qui retourne :
+  * `lirecaracteristiques()` qui retourne :
     * Type moteur,
     * Nombre de passagers
     * Le tonnage
