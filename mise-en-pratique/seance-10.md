@@ -1,6 +1,7 @@
 # Séance 10 : Génération de formulaire en POO
 
-### NOTATION
+{% hint style="info" %}
+### Notation
 
 Cet exercice sera à faire valider en fin de séance **obligatoirement**.
 
@@ -8,8 +9,9 @@ Cet exercice sera à faire valider en fin de séance **obligatoirement**.
 * 1, début d'exercice, mais non fonctionnel
 * 2, TP réalisé exactement comme demandé
 * 3, TP réalisé avec quelques améliorations/optimisations
+{% endhint %}
 
-### Objectifs
+## Sujet
 
 Dans cette séance, nous allons voir comment utiliser la POO pour générer des formulaires rapidement, sans devoir écrire tout le code HTML.
 

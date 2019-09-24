@@ -2,7 +2,8 @@
 
 Nous allons exploiter les classes du TP5 et du TD5, et les traitements des TP6 et TP7, et les bases de données du TP8
 
-### NOTATION
+{% hint style="info" %}
+### Notation
 
 Cet exercice sera à faire valider en fin de séance **obligatoirement**.
 
@@ -10,8 +11,9 @@ Cet exercice sera à faire valider en fin de séance **obligatoirement**.
 * 1, début d'exercice, mais non fonctionnel
 * 2, TP réalisé exactement comme demandé
 * 3, TP réalisé avec quelques améliorations/optimisations
+{% endhint %}
 
-### Sujet
+## Sujet
 
 Faire le lien entre le formulaire, le traitement et la base de données afin d'ajouter les artistes dans la base de données.
 

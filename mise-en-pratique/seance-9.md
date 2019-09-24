@@ -2,7 +2,8 @@
 
 Les séances qui vont suivre ont un lien entre elles. L'objectif est d'aboutir à une petite application permettant de gérer une collection de livre, et d'obtenir une sauvegarde dans une base de données \(description complète ici : [Description générale](description-generale.md)\).
 
-### NOTATION
+{% hint style="info" %}
+### Notation
 
 Cet exercice sera à faire valider en fin de séance **obligatoirement**.
 
@@ -10,8 +11,9 @@ Cet exercice sera à faire valider en fin de séance **obligatoirement**.
 * 1, début d'exercice, mais non fonctionnel
 * 2, TP réalisé exactement comme demandé
 * 3, TP réalisé avec quelques améliorations/optimisations
+{% endhint %}
 
-### Sujet
+## Sujet
 
 Ce premier TP consiste à construire les classes qui vont manipuler les livres et les auteurs de ces livres.
 
