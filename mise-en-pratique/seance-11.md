@@ -29,15 +29,41 @@ Dans cette séance vous devrez écrire le fichier qui affichera un formulaire po
 
 Ecrire un fichier qui permet d'afficher un formulaire en lien avec la classe Artiste \(et ses filles\). Ecrire un fichier de traitement qui instancie la bonne classe. Utiliser les méthodes d'affichage des objets pour vérifier le bon enregistrement des données.
 
-**On peut prendre pour simplification que le champ image est de type texte et contiendra le nom du fichier**
+**On peut prendre pour simplification que le champ image est de type texte et contiendra le nom du fichier \(exemple donnée plus bas\)**
 
 Faire de même pour les Livres.
+
+Au final vous devriez avoir 5 fichiers :
+
+* seance11.php \(donné ci-après\)
+* form-livre.php \(formulaire d'un livre, quelque soit son type\)
+* add-livre.php \(création d'un livre\)
+* form-artiste.php \(formulaire d'un artiste quelque soit sa spécialité\)
+* add-artiste.php
 
 {% hint style="danger" %}
 **Vous devez faire valider le bon fonctionnement de seance11.php en fin de séance**
 {% endhint %}
 
-Au final vous devriez avoir 4 fichiers.
+{% code-tabs %}
+{% code-tabs-item title="seance11.php" %}
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fichier de test de la séance 11</title>
+</head>
+<body>
+<h1>Fichier de test de la séance 11</h1>
+<h2>Menu</h2>
+<p><a href="form-livre.php">Création d'un livre, d'un roman ou d'une bande dessinées</a></p>
+<p><a href="form-artiste.php">Création d'un artiste, d'un auteur ou d'un dessinateur</a></p>
+</body>
+</html>
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ### Astuces
 
