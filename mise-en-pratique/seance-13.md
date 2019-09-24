@@ -1,6 +1,6 @@
 # Séance 13 : Utilisation d'une base de données et des formulaires
 
-Nous allons exploiter les classes du TP5 et du TD5, et les traitements des TP6 et TP7, et les bases de données du TP8
+Nous allons exploiter les classes des [Séance 9 : Structure de base](seance-9.md), [Séance 10 : Génération de formulaire en POO](seance-10.md), [Séance 11 : Traitement des formulaires pour nos livres et auteurs](seance-11.md) et [Séance 12 : Utilisation d'une base de données](seance-12.md)
 
 {% hint style="info" %}
 ### Notation
@@ -19,11 +19,13 @@ Faire le lien entre le formulaire, le traitement et la base de données afin d'a
 
 Faire également le lien avec le formulaire livre pour récupérer une liste, provenant de la base de données pour les Auteurs et les Dessinateurs.
 
+{% hint style="danger" %}
 **Vous devez faire valider le bon fonctionnement en fin de séance**
+{% endhint %}
 
 ### Terminer le TP précédent et la classe ArtisteManager
 
-Eléments de corrections :
+#### Eléments de corrections :
 
 Le constructeur de la classe ArtisteManager :
 
@@ -72,11 +74,11 @@ class ArtisteManager {
 
 ### Amélioration de ArtisteManager
 
-Nous allons améliorer la classe ArtisteManager en Ajoutant les méthodes suivantes :
+Nous allons améliorer la classe ArtisteManager en ajoutant les méthodes suivantes :
 
-* recupereSpecialite\($specialite\) : pour récupérer les Artistes selon une spécialité pécise
-* recupèreAuteur\(\) : qui utilisera la méthode recupereSpecialite pour récupérer les auteurs
-* recupèreDessinateur\(\) : qui utilisera la méthode recupereSpecialite pour récupérer les dessinateurs
+* `recupereSpecialite($specialite)` : pour récupérer les Artistes selon une spécialité précise
+* `recupereAuteur()` : qui utilisera la méthode `recupereSpecialite` pour récupérer les auteurs
+* `recupereDessinateur()` : qui utilisera la méthode `recupereSpecialite` pour récupérer les dessinateurs
 
 On pourrait aussi ajouter une méthode pour récupérer les données préformatées pour les selects.
 
