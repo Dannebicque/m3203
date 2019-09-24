@@ -25,24 +25,107 @@ On souhaite disposer d'une structure suffisamment générique afin d'intégrer t
 
 Pour ce premier TP, vous avez à votre disposition :
 
-* Un fichier contenant les interfaces que vous devez respecter. Ce fichier sera à inclure dans vos différentes classes. [fichier interfaces.php](interfaces.php)
-* Un fichier tp5.php qui vous permettra de tester le fonctionnement de vos classes. [fichier tp5.php](tp5.php)
+* Un fichier contenant les interfaces que vous devez respecter. Ce fichier sera à inclure dans vos différentes classes.
 
-**Vous devez faire valider le bon fonctionnement de tp5.php en fin de séance**
+{% hint style="danger" %}
+**Vous devez faire valider le bon fonctionnement de seance9.php en fin de séance**
+{% endhint %}
 
 ### Classe Abstraite Humain et Classe Artiste
 
+{% code-tabs %}
+{% code-tabs-item title="interfaces.php" %}
+```php
+<?php
+
+interface iSql{
+}
+interface iHumain {
+    public function sePresente();
+}
+interface iLivre {
+    public function __construct($titre, $nbPage);
+    public function addAuteur($auteur);
+    public function afficheLivre();
+}
+interface iBD {
+    public function addDessinateur($artistes);
+}
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+* Un fichier seance9.php qui vous permettra de tester le fonctionnement de vos classes.
+
+{% code-tabs %}
+{% code-tabs-item title="seance9.php" %}
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fichier de test de la séance 9</title>
+</head>
+<body>
+<h1>Fichier de test du TP5</h1>
+<?php
+require 'interfaces.php';
+require 'Humain.php';
+require 'Artiste.php';
+require 'Auteur.php';
+require 'Dessinateur.php';
+require 'Livre.php';
+require 'BandeDessinees.php';
+require 'Roman.php';
+?>
+
+<h2>Création de quelques auteurs</h2>
+<?php
+$artiste = new Artiste('Mozart', 'Wolfgang Amadeus', '27/01/1756', 'Compositeur', 'mozart.jpg');
+echo $artiste->sePresente();
+$auteur = new Auteur('Corbeyran', 'Eric', '14/12/1964', 'corbeyran.jpg');
+$dessinateur = new Dessinateur('Guérineau', 'Richard', '18/11/1969', 'guerineau.jpg');
+$auteurRoman = new Auteur('Conan Doyle', 'Arthur', '22/05/1859', 'doyle.jpg');
+echo '#################################';
+echo $auteur->sePresente();
+echo '#################################';
+echo $dessinateur->sePresente();
+echo '#################################';
+echo $auteurRoman->sePresente()
+?>
+<h2>Création de livres</h2>
+<?php
+$bd = new BandeDessinees('Le chant des Stryges', 48);
+$bd->addAuteur($auteur);
+$bd->addAuteur($auteurRoman);
+$bd->addDessinateur($dessinateur);
+echo '#################################';
+echo $bd->afficheLivre();
+$bd->supprimerAuteur($auteurRoman);
+echo '#################################';
+echo $bd->afficheLivre();
+$roman = new Roman('L\'étude en rouge', 136);
+$roman->addAuteur($auteurRoman);
+echo '#################################';
+echo $roman->afficheLivre();
+?>
+</body>
+</html>
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 #### Classe Abstraite Humain
 
-Un Humain est un objet possédant un nom, un prénom et une date de naissance.
-
-Un Humain est capable de se présenter et de travailler.
+Un Humain est un objet possédant un nom, un prénom et une date de naissance. Un Humain est capable de se présenter.
 
 **Implémentez cette classe en respectant l'interface donnée.**
 
 #### Classe Artiste.
 
-Un Artiste est un Humain qui possède une spécialité. Une spécialité est un champ texte. Un artiste possède également une image \(vous pouvez récupérer ces images directement sur Wikipedia par exemple\)
+Un Artiste est un Humain qui possède une spécialité. Une spécialité est un champ texte. Un artiste possède également une image \(vous pouvez récupérer ces images directement sur Wikipedia par exemple\).
 
 Nous considérerons dans un premier temps deux classes héritant d'Artiste: Un Auteur \(spécialité écrire\) et un Dessinateur \(spécialité dessiner\).
 
@@ -54,7 +137,7 @@ Nous considérerons dans un premier temps deux classes héritant d'Artiste: Un A
 
 On va définir une classe abstraite livre qui contiendra les propriétés **privées** suivantes :
 
-* Titre : chaîne de caractères, on s'assurera que le titre est formatté avec une majuscule sur chaque mot.
+* Titre : chaîne de caractères, on s'assurera que le titre est formaté avec une majuscule sur chaque mot.
 * NbPage : entier.
 * Auteurs : tableau d'Auteurs. Un auteur est un Artiste dont la spécialité est d'écrire.
 
@@ -64,10 +147,10 @@ On va définir une classe abstraite livre qui contiendra les propriétés **priv
 
 On définira deux classes enfants de cette classe Livre.
 
-* Une classe BandeDessinnees, qui contiendra un tableau de Dessinateurs. Un Dessinateur étant un Artiste dont la spécialité est de dessiner.
+* Une classe BandeDessinnees, qui contiendra un tableau de Dessinateurs.
 * Une classe roman ne possède pas de spécificité.
 
 **Implémentez ces deux classes et les méthodes associés**
 
-**Testez et implémentez les méthodes utilisées dans le fichier tp5.php**
+**Testez et implémentez les méthodes utilisées dans le fichier seance9.php**
 

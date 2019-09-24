@@ -25,10 +25,6 @@ Dans cette séance vous devrez écrire le fichier qui affichera un formulaire po
 
 **N'oubliez pas qu'une classe fille est une spécialisation d'une classe parent !**
 
-{% hint style="danger" %}
-**Vous devez faire valider le bon fonctionnement de seance11.php en fin de séance**
-{% endhint %}
-
 ### A faire
 
 Ecrire un fichier qui permet d'afficher un formulaire en lien avec la classe Artiste \(et ses filles\). Ecrire un fichier de traitement qui instancie la bonne classe. Utiliser les méthodes d'affichage des objets pour vérifier le bon enregistrement des données.
@@ -36,6 +32,10 @@ Ecrire un fichier qui permet d'afficher un formulaire en lien avec la classe Art
 **On peut prendre pour simplification que le champ image est de type texte et contiendra le nom du fichier**
 
 Faire de même pour les Livres.
+
+{% hint style="danger" %}
+**Vous devez faire valider le bon fonctionnement de seance11.php en fin de séance**
+{% endhint %}
 
 Au final vous devriez avoir 4 fichiers.
 
