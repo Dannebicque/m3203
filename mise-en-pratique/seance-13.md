@@ -86,4 +86,5 @@ On pourrait aussi ajouter une méthode pour récupérer les données préformat�
 
 * Utiliser la classe ArtisteManager pour gérer le traitement et la sauvegarde du formulaire
 * Utiliser la classe ArtisteManager pour générer les listes d'Auteurs dans les livres
+* Ecrire le fichier `artistes.php` qui est une page qui utilise la classe ArtisteManager pour afficher tous les artistes de la base de données.
 

@@ -36,9 +36,9 @@ Faire de même pour les Livres.
 Au final vous devriez avoir 5 fichiers :
 
 * seance11.php \(donné ci-après\)
-* form-livre.php \(formulaire d'un livre, quelque soit son type\)
+* ajout-livre.php \(formulaire d'un livre, quelque soit son type\)
 * add-livre.php \(création d'un livre\)
-* form-artiste.php \(formulaire d'un artiste quelque soit sa spécialité\)
+* ajout-artiste.php \(formulaire d'un artiste quelque soit sa spécialité\)
 * add-artiste.php
 
 {% hint style="danger" %}
