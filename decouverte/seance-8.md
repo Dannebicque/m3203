@@ -5,10 +5,6 @@
 * Construire des classes mettant en œuvre les concepts d’interface, d’héritage et d’encapsulation.
 * Être capable d’écrire seul\(e\) du code PHP en POO 
 
-## NOTATION
-
-Cet exercice sera à faire valider en fin de séance **obligatoirement**.
-
 ## TRAVAIL DEMANDE
 
 Codez en PHP les classes suivantes en les regroupant dans un fichier nommé **individu.php.**
