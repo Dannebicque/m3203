@@ -10,7 +10,7 @@
 
 **Convention de nommage** : le nom de l’interface a pour initiale la lettre i minuscule.
 
-[Complément de cours sur les interfaces, à lire](Les-interfaces-en-PHP.pptx)
+{% file src="../.gitbook/assets/les-interfaces-en-php.pptx" caption="Complément de cours sur les interfaces" %}
 
 #### Exemple de code
 
