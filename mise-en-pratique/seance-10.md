@@ -61,11 +61,11 @@ interface iFormulaire {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TD5 - Génération de formulaires</title>
+    <title>Seance 10 - Génération de formulaires</title>
 </head>
 <body>
 <?php
-include('interfacetd5.php');
+include('iFormulaire.php');
 include('Formulaire.php');
 echo '<h1>Un premier formulaire</h1>';
 $form1 = new Formulaire('traitement.php', 'post', 'form1');

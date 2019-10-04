@@ -49,7 +49,7 @@ ALTER TABLE `Artiste` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TP8 - Manipulation de base de données</title>
+    <title>Seance 12 - Manipulation de base de données</title>
 </head>
 <body>
 <h1>Manipulation de base de données et d'Artiste</h1>

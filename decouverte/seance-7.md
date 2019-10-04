@@ -160,7 +160,7 @@ interface iEleve
 }
 ```
 
-Implémenté la classe associée à cette interface \(iEleve\) et un exemple de code pour chacune des méthodes définies.
+Implémenter la classe associée à cette interface \(iEleve\) et un exemple de code pour chacune des méthodes définies.
 
 La classe comprendra les propriétés suivantes :
 

@@ -179,7 +179,7 @@ Cette classe possède également un attribut propre à la classe `$nbetudiants` 
 
 * La méthode `travailler($nombreheures)` permet de calculer le revenu cumulé d’un\(e\) étudiant\(e\) sur la base horaire de 9.5 euros. Mais ce tarif horaire sera minoré de 20% si l’étudiant\(e\) est âgé\(e\) de moins de 18 ans. A chaque appel de cette méthode, on cumulera le salaire calculé au salaire précédent.
 * La méthode `evaluer($noteExamen)` retournera un texte précisant le nom, le prénom et l’indication reçu\(e\) ou ajourné\(e\) à l’examen selon la note. Pour être reçu, il faut avoir la moyenne.
-* D’autres méthodes sont à créer : observez le code du fichier [fichier tp1.php](tp1.php) pour les repérer.
+* D’autres méthodes sont à créer : observez le code du fichier seance8.php \(ci-dessus\) pour les repérer.
 
 Codez cette classe
 
