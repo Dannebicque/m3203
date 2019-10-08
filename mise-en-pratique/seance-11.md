@@ -65,6 +65,10 @@ Au final vous devriez avoir 5 fichiers :
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+Vous trouverez un exemple de réalisation ici : [http://195.83.128.55/~dannebicque/M3203-demo/seance11.php](http://195.83.128.55/~dannebicque/M3203-demo/seance11.php)
+
+La partie livre n'est pas complète ! A vous d'ajouter les champs manquants.
+
 ### Astuces
 
 Pour la gestion des auteurs et des dessinateurs, on peut imaginer écrire un fichier contenant des objets ou un tableau d'objets avec des auteurs et des dessinateurs. Cela permettrait de simuler une requête depuis une base de données.
