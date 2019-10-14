@@ -68,7 +68,7 @@ interface iFormulaire {
 include('iFormulaire.php');
 include('Formulaire.php');
 echo '<h1>Un premier formulaire</h1>';
-$form1 = new Formulaire('traitement.php', 'post', 'form1');
+$form1 = new Formulaire('traitement1.php', 'post', 'form1');
 $form1->ajoutChampSimple('Nom', 'text', 'nom');
 $form1->ajoutChampSimple('Prénom', 'text', 'prenom');
 $form1->ajoutChampChoix('Sexe', 'radio', 'sexe', array('H' => 'Homme', 'F' => 'Femme'));
@@ -76,13 +76,13 @@ $form1->ajoutChampSelect('Ville', 'ville', array(1 => 'Troyes', 2 => 'Dijon', 3 
 $form1->ajoutBoutonSubmit('Valider');
 echo $form1->genereFormulaireHTML();
 echo '<h1>Un deuxième formulaire</h1>';
-$form2 = new Formulaire('ajout.php', 'get', 'form2');
+$form2 = new Formulaire('traitement2.php', 'get', 'form2');
 $form2->ajoutChampSimple('Login', 'email', 'login', 'login', 'form-control');
 $form2->ajoutChampSimple('Mot de passe', 'password', 'password');
 $form2->ajoutBoutonSubmit('Se connecter');
 echo $form2->genereFormulaireHTML();
 echo '<h1>Un troisième formulaire</h1>';
-$form3 = new Formulaire('traitement-3.php', 'post', 'form3');
+$form3 = new Formulaire('traitement3.php', 'post', 'form3');
 $form3->ajoutChampSimple('Nom', 'text', 'nom');
 $form3->ajoutChampSimple('Prénom', 'text', 'prenom');
 $form3->ajoutChampDate('Date de naissance', 'datenaissance');
@@ -96,6 +96,88 @@ echo $form3->genereFormulaireHTML();
 {% endcode-tabs %}
 
 A vous d'identifier les propriétés nécessaires dans cette classe. Seul le fonctionnement des méthodes est présenté ici. Vous disposez de l'interface pour obtenir leur signature à implémenter.
+
+Ci-dessus les trois fichiers de traitement pour tester vos formulaires.
+
+{% code-tabs %}
+{% code-tabs-item title="traitement1.php" %}
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fichier de traitement de la séance 10</title>
+</head>
+<body>
+<h1>Fichier "traitement1.php" du premier formulaire de la séance 10</h1>
+<h2>Affichage des données saisies dans le formulaire</h2>
+<ul>
+<?php
+echo '<li> Nom : '.$_POST['nom'].'</li>';
+echo '<li> Prénom : '.$_POST['prenom'].'</li>';
+
+if ($_POST['sexe'] === 'H') { $sexe = 'Homme'; }
+else {$sexe = 'Femme';}
+
+echo '<li> Sexe : '.$sexe.'</li>';
+$villes = array(1 => 'Troyes', 2 => 'Dijon', 3 => 'Lille');
+echo '<li> Ville : '.$villes[$_POST['ville']].'</li>';
+?>
+</ul>
+</body>
+</html>
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% code-tabs %}
+{% code-tabs-item title="traitement2.php" %}
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fichier de traitement de la séance 10</title>
+</head>
+<body>
+<h1>Fichier "traitement2.php" du deuxième formulaire de la séance 10</h1>
+<h2>Affichage des données saisies dans le formulaire</h2>
+<ul>
+<?php
+echo '<li> Login : '.$_GET['login'].'</li>';
+echo '<li> Password : '.$_GET['password'].'</li>';
+?>
+</ul>
+</body>
+</html>
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% code-tabs %}
+{% code-tabs-item title="traitement3.php" %}
+```php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fichier de traitement de la séance 10</title>
+</head>
+<body>
+<h1>Fichier "traitement3.php" du troisième formulaire de la séance 10</h1>
+<h2>Affichage des données saisies dans le formulaire</h2>
+<ul>
+<?php
+echo '<li> Nom : '.$_POST['nom'].'</li>';
+echo '<li> Prénom : '.$_POST['prenom'].'</li>';
+echo '<li> Date de naissance : '.$_POST['datenaissance_jour'].'/'.$_POST['datenaissance_mois'].'/'.$_POST['datenaissance_annee'].'</li>';
+?>
+</ul>
+</body>
+</html>
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 #### Constructeur
 
