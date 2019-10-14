@@ -33,9 +33,9 @@ Le constructeur de la classe ArtisteManager :
 class ArtisteManager {
   private $db;
 
-  public function __construct ($login, $password, $serveur, $bdd)
+  public function __construct ($serveur, $login, $password, $bdd)
   {
-      $this->db = new PDO('mysql:dbname='.$bdd.';host='.$serveur, $login, $password);
+      $this->db = new PDO('mysql:host='.$serveur.';dbname='.$bdd, $login, $password);
   }
   ...
 }
