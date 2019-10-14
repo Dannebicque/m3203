@@ -82,8 +82,8 @@ $auteur1 = new Auteur('Corbeyran', 'Eric', '14/12/1964', 'corbeyran.jpg');
 $auteur2 = new Auteur('Van Hamme', 'Jean', '16/01/1939', 'van-hamme.jpg');
 $auteur3 = new Auteur('Bartoll', 'Jean-Claude', '12/11/1962', 'bartoll.jpg');
 $auteur4 = new Auteur('Goscinny', 'René', '14/08/1926', 'goscinny.jpg');
-
-$tabAuteurs = array(1 => $auteur1, 2 => $auteur2, 3 => $auteur3, 4 => $auteur4);
+$auteur5 = new Auteur('Conan Doyle', 'Arthur', '22/05/1859', 'doyle.jpg');
+$tabAuteurs = array(1 => $auteur1, 2 => $auteur2, 3 => $auteur3, 4 => $auteur4, 5 => $auteur5);
 
 $dessinateur1 = new Dessinateur('Guérineau', 'Richard', '18/11/1969', 'guerineau.jpg');
 $dessinateur2 = new Dessinateur('Legrain', 'Thomas', '22/01/1981', 'legrain.jpg');
@@ -91,7 +91,7 @@ $dessinateur3 = new Dessinateur('Bilal', 'Enki', '07/10/1951', 'bilal.jpg');
 
 $tabDessinateurs = array($dessinateur1, $dessinateur2, $dessinateur3);
 
-$auteurRoman = new Auteur('Conan Doyle', 'Arthur', '22/05/1859', 'doyle.jpg');
+
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
