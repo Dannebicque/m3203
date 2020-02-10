@@ -27,8 +27,7 @@ Ne pas oublier qu'un livre comporte a minima des auteurs.
 
 ### Sources à disposition :
 
-{% code-tabs %}
-{% code-tabs-item title="seance15.php" %}
+{% code title="seance15.php" %}
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -49,6 +48,5 @@ Ne pas oublier qu'un livre comporte a minima des auteurs.
 </html>
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 

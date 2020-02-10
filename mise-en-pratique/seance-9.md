@@ -33,8 +33,7 @@ Pour ce premier TP, vous avez à votre disposition :
 
 ### Classe Abstraite Humain et Classe Artiste
 
-{% code-tabs %}
-{% code-tabs-item title="interfaces.php" %}
+{% code title="interfaces.php" %}
 ```php
 <?php
 
@@ -53,13 +52,11 @@ interface iBD {
 }
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 * Un fichier seance9.php qui vous permettra de tester le fonctionnement de vos classes.
 
-{% code-tabs %}
-{% code-tabs-item title="seance9.php" %}
+{% code title="seance9.php" %}
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -114,8 +111,7 @@ echo $roman->afficheLivre();
 </html>
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 #### Classe Abstraite Humain
 

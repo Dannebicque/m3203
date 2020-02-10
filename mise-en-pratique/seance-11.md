@@ -45,8 +45,7 @@ Au final vous devriez avoir 5 fichiers :
 **Vous devez faire valider le bon fonctionnement de seance11.php en fin de séance**
 {% endhint %}
 
-{% code-tabs %}
-{% code-tabs-item title="seance11.php" %}
+{% code title="seance11.php" %}
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -62,8 +61,7 @@ Au final vous devriez avoir 5 fichiers :
 </body>
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Vous trouverez un exemple de réalisation ici : [http://195.83.128.55/~dannebicque/M3203-demo/seance11.php](http://195.83.128.55/~dannebicque/M3203-demo/seance11.php)
 
@@ -73,8 +71,7 @@ La partie livre n'est pas complète ! A vous d'ajouter les champs manquants.
 
 Pour la gestion des auteurs et des dessinateurs, on peut imaginer écrire un fichier contenant des objets ou un tableau d'objets avec des auteurs et des dessinateurs. Cela permettrait de simuler une requête depuis une base de données.
 
-{% code-tabs %}
-{% code-tabs-item title="listeartistes.php" %}
+{% code title="listeartistes.php" %}
 ```php
 <?php
 
@@ -93,6 +90,5 @@ $tabDessinateurs = array($dessinateur1, $dessinateur2, $dessinateur3);
 
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 

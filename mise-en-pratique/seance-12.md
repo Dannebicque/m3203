@@ -23,8 +23,7 @@ En d'autres termes, la classe Artiste, ne contiendra que ce qui permet de manipu
 
 * Un fichier seance12.sql à intégrer dans votre base de données.
 
-{% code-tabs %}
-{% code-tabs-item title="seance12.sql" %}
+{% code title="seance12.sql" %}
 ```sql
 CREATE TABLE `Artiste` (
   `id` int(11) NOT NULL,
@@ -37,13 +36,11 @@ CREATE TABLE `Artiste` (
 ALTER TABLE `Artiste` ADD PRIMARY KEY (`id`);
 ALTER TABLE `Artiste` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 * Un fichier seance12.php à tester
 
-{% code-tabs %}
-{% code-tabs-item title="seance12.php" %}
+{% code title="seance12.php" %}
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -73,8 +70,7 @@ ALTER TABLE `Artiste` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 </html>
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 {% hint style="danger" %}
 **Vous devez faire valider le bon fonctionnement en fin de séance**

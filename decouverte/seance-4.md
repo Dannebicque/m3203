@@ -115,8 +115,7 @@ La classe possède les méthodes suivantes :
 * Appeler la méthode : vieillir\(6\)
 * Appeler la méthode : lire\_informations\(\)
 
-{% code-tabs %}
-{% code-tabs-item title="td4\_heritage.php" %}
+{% code title="td4\_heritage.php" %}
 ```php
 include('animal.php');
 
@@ -142,8 +141,7 @@ $bestiole->vieillir(6);
 // Appeler la méthode : lire_informations()
 $bestiole->lire_informations();
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### EXERCICE N°2
 

@@ -1,7 +1,6 @@
 # Séance 1
 
-{% code-tabs %}
-{% code-tabs-item title="Exercice 1" %}
+{% code title="Exercice 1" %}
 ```php
 <?php
 // Déclaration d'un tableau 1 dimension
@@ -23,11 +22,9 @@ foreach ($tableau_notes as $note) {
 echo 'Nombre de notes '. count($tableau_notes);
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="Exercice 2" %}
+{% code title="Exercice 2" %}
 ```php
 <?php
 // Déclaration d'un tableau associatif
@@ -43,11 +40,9 @@ foreach ($tableau_notes as $key => $value) {
 }
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="Exercice 3" %}
+{% code title="Exercice 3" %}
 ```php
 <?php
 // Déclaration d'un tableau 2 dimension
@@ -70,11 +65,9 @@ foreach ($tableau_notes as $etudiant ) {
 }
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="Exercice 4" %}
+{% code title="Exercice 4" %}
 ```php
 <?php
 // Déclaration de la fonction
@@ -88,6 +81,5 @@ affichage_footer('IUT de troyes', 'MMI', 'M2203');
 
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 

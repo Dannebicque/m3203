@@ -36,8 +36,7 @@ Pour cette séance, vous avez à votre disposition :
 
 ### Classe formulaire : Description des méthodes
 
-{% code-tabs %}
-{% code-tabs-item title="iFormulaire.php" %}
+{% code title="iFormulaire.php" %}
 ```php
 <?php
 interface iFormulaire {
@@ -49,13 +48,11 @@ interface iFormulaire {
     public function genereFormulaireHTML();
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 * Un fichier seance10.php qui vous permettra de tester le fonctionnement de vos classes.
 
-{% code-tabs %}
-{% code-tabs-item title="seance10.php" %}
+{% code title="seance10.php" %}
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -92,15 +89,13 @@ echo $form3->genereFormulaireHTML();
 </body>
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 A vous d'identifier les propriétés nécessaires dans cette classe. Seul le fonctionnement des méthodes est présenté ici. Vous disposez de l'interface pour obtenir leur signature à implémenter.
 
 Ci-dessus les trois fichiers de traitement pour tester vos formulaires.
 
-{% code-tabs %}
-{% code-tabs-item title="traitement1.php" %}
+{% code title="traitement1.php" %}
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -127,11 +122,9 @@ echo '<li> Ville : '.$villes[$_POST['ville']].'</li>';
 </body>
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="traitement2.php" %}
+{% code title="traitement2.php" %}
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -151,11 +144,9 @@ echo '<li> Password : '.$_GET['password'].'</li>';
 </body>
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
-{% code-tabs %}
-{% code-tabs-item title="traitement3.php" %}
+{% code title="traitement3.php" %}
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -176,8 +167,7 @@ echo '<li> Date de naissance : '.$_POST['datenaissance_jour'].'/'.$_POST['datena
 </body>
 </html>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 #### Constructeur
 

@@ -11,8 +11,7 @@ Codez en PHP les classes suivantes en les regroupant dans un fichier nommé **in
 
 **Ci-dessous le fichier seance8.php**
 
-{% code-tabs %}
-{% code-tabs-item title="seance8.php" %}
+{% code title="seance8.php" %}
 ```php
 <?php
 	/*---------------------------------------------------------
@@ -126,8 +125,7 @@ Codez en PHP les classes suivantes en les regroupant dans un fichier nommé **in
 	
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Vous pouvez bien sûr commenter des éléments dans le fichier seance8.php pour effectuer vos tests. A la fin de la séance, l'ensemble des appels du fichier doivent fonctionner.
 

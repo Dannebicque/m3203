@@ -17,8 +17,7 @@ Remarque : il est possible de déclarer des méthodes privées \(qui ne seront u
 
 Voici le code la classe Personne.
 
-{% code-tabs %}
-{% code-tabs-item title="personne.php" %}
+{% code title="personne.php" %}
 ```php
 <?php
     //----------------------------------------------------
@@ -49,15 +48,13 @@ Voici le code la classe Personne.
     }
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Les propriétés sont déclarées **private**.
 
 Voici le code de l’application seance3\_exo1.php.
 
-{% code-tabs %}
-{% code-tabs-item title="seance3\_exo1.php" %}
+{% code title="seance3\_exo1.php" %}
 ```php
 <?php
     //----------------------------------------------------
@@ -77,8 +74,7 @@ Voici le code de l’application seance3\_exo1.php.
     echo $etudiant->sePresente().'<br>'; // Je m'appelle Paul Durand et j'ai 19 ans 
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 A FAIRE
 
@@ -93,8 +89,7 @@ Nous allons ici modifier le code de la classe Personne pour répondre à un nouv
 
 Code de la classe Personne2
 
-{% code-tabs %}
-{% code-tabs-item title="personne2.php" %}
+{% code title="personne2.php" %}
 ```php
 <?php
     //----------------------------------------------------
@@ -130,13 +125,11 @@ Code de la classe Personne2
     }
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 Voici le code de l’application seance3\_exo2.php
 
-{% code-tabs %}
-{% code-tabs-item title="seance3\_exo2.php" %}
+{% code title="seance3\_exo2.php" %}
 ```php
 <?php
     //----------------------------------------------------
@@ -159,8 +152,7 @@ Voici le code de l’application seance3\_exo2.php
     echo $etudiant->sePresente().'<br>'; // Je m'appelle Paul DURAND et j'ai 19 ans (nom en majuscules)
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 A FAIRE
 
@@ -187,8 +179,7 @@ Les méthodes
 
 **Ecrire l’application seance3\_exo3.php**
 
-{% code-tabs %}
-{% code-tabs-item title="seance3\_exo3.php" %}
+{% code title="seance3\_exo3.php" %}
 ```php
 <?php
     //----------------------------------------------------
@@ -210,8 +201,7 @@ Les méthodes
 
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 * Testez le code
 
