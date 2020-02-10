@@ -24,8 +24,7 @@ Le but de ces exercices est de faire un rappel rapide de la notion de tableau, q
 * Nommez le fichier td1\_tableau.php
 * Testez-le
 
-{% code-tabs %}
-{% code-tabs-item title="td1\_tableau.php" %}
+{% code title="td1\_tableau.php" %}
 ```php
 <?php
 // Déclaration d'un tableau 1 dimension
@@ -45,8 +44,7 @@ foreach (?? as ??) {
 echo 'Nombre de notes '. ??;
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 #### **Tableau associatif**
 
@@ -55,8 +53,7 @@ echo 'Nombre de notes '. ??;
 * Nommez le fichier td1\_tableau\_associatif.php
 * Testez-le
 
-{% code-tabs %}
-{% code-tabs-item title="td1\_tableau\_associatif.php" %}
+{% code title="td1\_tableau\_associatif.php" %}
 ```php
 <?php
 // Déclaration d'un tableau associatif
@@ -72,8 +69,7 @@ foreach (?? as ??) {
 }
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 #### **Tableau 2 dimensions**
 
@@ -82,8 +78,7 @@ foreach (?? as ??) {
 * Nommez le fichier td1\_tableau\_2d.php
 * Testez-le
 
-{% code-tabs %}
-{% code-tabs-item title="td1\_tableau\_2d.php" %}
+{% code title="td1\_tableau\_2d.php" %}
 ```php
 <?php
 // Déclaration d'un tableau 2 dimension
@@ -106,8 +101,7 @@ foreach ($tableau_notes as ?? ) {
 }
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ### Les fonctions
 
@@ -141,8 +135,7 @@ On vous fournit le code suivant.
 
 1. Saisissez le code ci-dessous. Nommez le fichier nommé td1\_fonction.php
 
-{% code-tabs %}
-{% code-tabs-item title="td1\_fonction.php" %}
+{% code title="td1\_fonction.php" %}
 ```php
 <?php
 // Déclaration de la fonction
@@ -154,8 +147,7 @@ function affichage_footer(???){
 affichage_footer();
 ?>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 1. Modifiez le code pour :
 2. Créez une fonction footer qui possède 3 arguments : le nom de l’IUT, le département et le nom du module
@@ -166,7 +158,7 @@ affichage_footer();
 {% hint style="info" %}
 Profitez de cette séance pour installer les outils nécessaires. 
 
-* Un IDE pour faciliter l'écriture du code PHPStorm par exemple \([https://www.jetbrains.com/student/](https://www.jetbrains.com/student/)\)
+* Un IDE pour faciliter l'écriture du code. PHPStorm par exemple \([https://www.jetbrains.com/student/](https://www.jetbrains.com/student/)\)
 * Un serveur local WAMP ou MAMP
 {% endhint %}
 
