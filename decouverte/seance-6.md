@@ -253,7 +253,7 @@ Voici le code de l’application attendue. A saisir et à tester.
     // IUT de Troyes - MMI
 
     require 'vehicule.php';
-    //$vehicule1=new VehiculeAMoteur('E',5); // Impossible
+    $vehicule1=new VehiculeAMoteur('E',5); // Impossible
     echo 'Véhicule 1'.'<br>';
     echo 'Instanciation impossible'.'<br>';
     echo '<br>';
