@@ -206,7 +206,7 @@ Créer la classe Voiture qui hérite de la classe VehiculeAMoteur dont les carac
 
 #### Classe VoitureDeSport
 
-Créer la classe VoitureDeSport qui hérite de la classe Voiture. Il ne doit pas être possible de créer des classes fillesà partir de la classe VoitureDeSport.
+Créer la classe VoitureDeSport qui hérite de la classe Voiture. Il ne doit pas être possible de créer des classes filles à partir de la classe VoitureDeSport.
 
 * Propriété :
   * Nb de secondes de zéro à  100 km/h
@@ -241,7 +241,7 @@ Créer la classe Camion qui hérite de la classe VehiculeAMoteur dont les caract
     * Le tonnage
     * Le nombre d’essieux 
 
-### CREATION DE L’APPLICATION \(TD6.PHP\)
+### CREATION DE L’APPLICATION \(seance6.php\)
 
 Voici le code de l’application attendue. A saisir et à tester.
 
