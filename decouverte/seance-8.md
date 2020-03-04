@@ -99,7 +99,7 @@ Codez en PHP les classes suivantes en les regroupant dans un fichier nommé **in
 			  ========================================== */
 	echo '-------------Début etape 4--------------------------------<br>';
 			// Instanciation
-	$individu4=new Etudiant_mmi('Hontoi','Franck','homme','6789012345C','SRC',18,'Web avancé');
+	$individu4=new Etudiant_mmi('Hontoi','Franck','homme','6789012345C',18,'Web avancé');
 			// Franck Hontoi se présente
 	echo $individu4->sePresente().'<br>';
 			// Franck Hontoi travaille 35 heures
