@@ -121,9 +121,9 @@ Un Humain est un objet possédant un nom, un prénom et une date de naissance. U
 
 #### Classe Artiste.
 
-Un Artiste est un Humain qui possède une spécialité. Une spécialité est un champ texte. Un artiste possède également une image \(vous pouvez récupérer ces images directement sur Wikipedia par exemple\).
+Un `Artiste` est un `Humain` qui possède une spécialité. Une spécialité est un champ texte. Un artiste possède également une image \(vous pouvez récupérer ces images directement sur Wikipedia par exemple\).
 
-Nous considérerons dans un premier temps deux classes héritant d'Artiste: Un Auteur \(spécialité écrire\) et un Dessinateur \(spécialité dessiner\).
+Nous considérerons dans un premier temps deux classes héritant d'`Artiste`: Un `Auteur` \(spécialité écrire\) et un `Dessinateur` \(spécialité dessiner\).
 
 **Implémentez cette classe ainsi que les classes filles nécessaires.**
 
@@ -131,11 +131,11 @@ Nous considérerons dans un premier temps deux classes héritant d'Artiste: Un A
 
 #### Classe Abstraire Livre
 
-On va définir une classe abstraite livre qui contiendra les propriétés **privées** suivantes :
+On va définir une classe abstraite `Livre` qui contiendra les propriétés **privées** suivantes :
 
-* Titre : chaîne de caractères, on s'assurera que le titre est formaté avec une majuscule sur chaque mot.
-* NbPage : entier.
-* Auteurs : tableau d'Auteurs. Un auteur est un Artiste dont la spécialité est d'écrire.
+* `titre` : chaîne de caractères, on s'assurera que le titre est formaté avec une majuscule sur chaque mot.
+* `nbPage` : entier.
+* `auteurs` : tableau d'Auteurs. Un auteur est un Artiste dont la spécialité est d'écrire.
 
 **Implémentez cette classe et les méthodes nécessaires et décrites dans l'interface**
 
@@ -143,8 +143,8 @@ On va définir une classe abstraite livre qui contiendra les propriétés **priv
 
 On définira deux classes enfants de cette classe Livre.
 
-* Une classe BandeDessinnees, qui contiendra un tableau de Dessinateurs.
-* Une classe roman ne possède pas de spécificité.
+* Une classe `BandeDessinnees`, qui contiendra un tableau de Dessinateurs.
+* Une classe `Roman` ne possède pas de spécificité.
 
 **Implémentez ces deux classes et les méthodes associés**
 
