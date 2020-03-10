@@ -36,9 +36,9 @@ Faire de même pour les Livres.
 Au final vous devriez avoir 5 fichiers :
 
 * seance11.php \(donné ci-après\)
-* ajout-livre.php \(formulaire d'un livre, quelque soit son type\)
+* form-livre.php \(formulaire d'un livre, quelque soit son type\)
 * add-livre.php \(création d'un livre\)
-* ajout-artiste.php \(formulaire d'un artiste quelque soit sa spécialité\)
+* form-artiste.php \(formulaire d'un artiste quelque soit sa spécialité\)
 * add-artiste.php
 
 {% hint style="danger" %}
@@ -62,8 +62,6 @@ Au final vous devriez avoir 5 fichiers :
 </html>
 ```
 {% endcode %}
-
-Vous trouverez un exemple de réalisation ici : [http://195.83.128.55/~dannebicque/M3203-demo/seance11.php](http://195.83.128.55/~dannebicque/M3203-demo/seance11.php)
 
 La partie livre n'est pas complète ! A vous d'ajouter les champs manquants.
 
