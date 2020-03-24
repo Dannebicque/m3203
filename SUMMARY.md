@@ -4,6 +4,7 @@
 * [CM1](cm1.md)
 * [CM2](cm2.md)
 * [FAQ](faq.md)
+* [ORGANISATION CONFINEMENT](organisation-confinement.md)
 
 ## Découverte
 
