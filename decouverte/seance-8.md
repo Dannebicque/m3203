@@ -139,7 +139,7 @@ La classe Individu est une classe abstraite qui implémente l’interface iHumai
 
 #### Les attributs
 
-Les 5 attributs **privés** de la classe Individu sont :
+Les 5 propriétés **protected** de la classe Individu sont :
 
 * `$nom` : valeur alphanumérique
 * `$prenom` : valeur alphanumérique
@@ -164,7 +164,7 @@ La classe Etudiant est une classe qui hérite de la classe Individu
 
 #### Les attributs
 
-Les attributs privés de la classe Etudiant sont :
+Les propriétés **protected** de la classe Etudiant sont :
 
 * `$numetudiant` : 10 chiffres et une lettre
 * `$age` : valeur numérique
@@ -187,7 +187,7 @@ La classe Etudiant\_mmi hérite de la classe Etudiant. Il n’est pas possible d
 
 #### Les attributs
 
-Un attribut privé : `$option`. Valeur alphanumérique indiquant le titre de l’option choisie par un\(e\) étudiant\(e\) au semestre 4
+Une propriété **privé** : `$option`. Valeur alphanumérique indiquant le titre de l’option choisie par un\(e\) étudiant\(e\) au semestre 4
 
 #### Les méthodes
 
