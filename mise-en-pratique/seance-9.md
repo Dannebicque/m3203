@@ -131,7 +131,7 @@ Nous considérerons dans un premier temps deux classes héritant d'`Artiste`: Un
 
 #### Classe Abstraire Livre
 
-On va définir une classe abstraite `Livre` qui contiendra les propriétés **privées** suivantes :
+On va définir une classe abstraite `Livre` qui contiendra les propriétés _**protected**_ suivantes :
 
 * `titre` : chaîne de caractères, on s'assurera que le titre est formaté avec une majuscule sur chaque mot.
 * `nbPage` : entier.
