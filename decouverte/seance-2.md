@@ -46,5 +46,22 @@ Utiliser un véhicule a pour effet d’augmenter la valeur du kilométrage. On s
 
 ### Exercice 2
 
-Considérant qu'un chien est caractérisé par sa race, son age et son poids, définissez une classe permettant de le représenter. Un chien est par ailleurs un animal qui vieillit, et qui peut prendre du poids. Complétez la classe avec les deux méthodes permettant d'intégrer ces actions.
+Considérant qu'un chien est caractérisé par sa race, son âge et son poids, définissez une classe permettant de le représenter. Un chien est par ailleurs un animal qui vieillit, et qui peut prendre du poids. On peut afficher toutes les caractéristiques des chiens.
+
+1. Définir la classe Chien
+2. Créer le fichier tp1\_chien.php pour tester la classe.
+3. Créer les deux chiens suivants :
+
+| Nom du chien | Race | Age | Poids |
+| :--- | :--- | :--- | :--- |
+| Chien1 | Labrador | 4 | 25 |
+| Chien2 | Berger Allemand | 6 | 20 |
+
+Ecrire le code permettant de réaliser les étapes suivantes :
+
+* Afficher les données des chien1 et chien2
+* Le chien1 prend un an de plus \(c'est son anniversaire :\)\)
+* Le chien2 mange et grossit de 1,5Kg
+* Le chien1 perd 2kg
+* A chaque étape afficher les informations du chien.
 
