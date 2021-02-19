@@ -1,4 +1,4 @@
-# Séance 10 : Génération de formulaire en POO
+# Séance B : Génération de formulaire en POO
 
 {% hint style="info" %}
 ### Notation

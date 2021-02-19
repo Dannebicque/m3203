@@ -1,4 +1,4 @@
-# Séance 9 : Structure de base
+# Séance A : Structure de base
 
 Les séances qui vont suivre ont un lien entre elles. L'objectif est d'aboutir à une petite application permettant de gérer une collection de livre, et d'obtenir une sauvegarde dans une base de données \(description complète ici : [Description générale](description-generale.md)\).
 

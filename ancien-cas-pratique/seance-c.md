@@ -1,6 +1,6 @@
-# Séance 11 : Traitement des formulaires pour nos livres et auteurs
+# Séance C : Traitement des formulaires pour nos livres et auteurs
 
-Nous allons exploiter les classes des séances [Séance 9 : Structure de base](seance-9.md)  et [Séance 10 : Génération de formulaire en POO](seance-10.md)
+Nous allons exploiter les classes des séances [Séance 9 : Structure de base](seance-a.md)  et [Séance 10 : Génération de formulaire en POO](seance-b.md)
 
 {% hint style="info" %}
 ### Notation

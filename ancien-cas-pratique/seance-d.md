@@ -1,6 +1,6 @@
-# Séance 12 : Utilisation d'une base de données
+# Séance D : Utilisation d'une base de données
 
-Nous allons exploiter les classes des [Séance 9 : Structure de base](seance-9.md), [Séance 10 : Génération de formulaire en POO](seance-10.md) et [Séance 11 : Traitement des formulaires pour nos livres et auteurs](seance-11.md)
+Nous allons exploiter les classes des [Séance 9 : Structure de base](seance-a.md), [Séance 10 : Génération de formulaire en POO](seance-b.md) et [Séance 11 : Traitement des formulaires pour nos livres et auteurs](seance-c.md)
 
 {% hint style="info" %}
 ### Notation

@@ -20,17 +20,24 @@
 
 * [Description générale](mise-en-pratique-d-and-d/description-generale.md)
 * [Planning - Organisation](mise-en-pratique-d-and-d/planning-organisation.md)
+* [Séance 8](mise-en-pratique-d-and-d/seance-8.md)
+* [Séance 9](mise-en-pratique-d-and-d/seance-9.md)
+* [Séance 10](mise-en-pratique-d-and-d/seance-10.md)
+* [Séance 11](mise-en-pratique-d-and-d/seance-11.md)
+* [Séance 12](mise-en-pratique-d-and-d/seance-12.md)
+* [Séance 13](mise-en-pratique-d-and-d/seance-13.md)
+* [Séance 14](mise-en-pratique-d-and-d/seance-14.md)
 
 ## Ancien cas pratique
 
 * [Description générale](ancien-cas-pratique/description-generale.md)
-* [Séance 9 : Structure de base](ancien-cas-pratique/seance-9.md)
-* [Séance 10 : Génération de formulaire en POO](ancien-cas-pratique/seance-10.md)
-* [Séance 11 : Traitement des formulaires pour nos livres et auteurs](ancien-cas-pratique/seance-11.md)
-* [Séance 12 : Utilisation d'une base de données](ancien-cas-pratique/seance-12.md)
-* [Séance 13 : Utilisation d'une base de données et des formulaires](ancien-cas-pratique/seance-13.md)
-* [Séance 14 : Utilisation d'une base de données et des formulaires](ancien-cas-pratique/seance-14.md)
-* [Séance 15 : Finalisation](ancien-cas-pratique/seance-15.md)
+* [Séance A : Structure de base](ancien-cas-pratique/seance-a.md)
+* [Séance B : Génération de formulaire en POO](ancien-cas-pratique/seance-b.md)
+* [Séance C : Traitement des formulaires pour nos livres et auteurs](ancien-cas-pratique/seance-c.md)
+* [Séance D : Utilisation d'une base de données](ancien-cas-pratique/seance-d.md)
+* [Séance E : Utilisation d'une base de données et des formulaires](ancien-cas-pratique/seance-e.md)
+* [Séance F : Utilisation d'une base de données et des formulaires](ancien-cas-pratique/seance-f.md)
+* [Séance G : Finalisation](ancien-cas-pratique/seance-g.md)
 * [Séance 16 : TP Noté](ancien-cas-pratique/seance-16.md)
 
 ## Corrections Séances 1-8

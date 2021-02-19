@@ -1,4 +1,4 @@
-# Séance 15 : Finalisation
+# Séance G : Finalisation
 
 Dans cette dernière séance, nous allons exploiter tous les objets créés afin de produire un mini-site permettant la gestion de livres et d'artistes.
 
