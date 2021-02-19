@@ -1,4 +1,4 @@
-# Séance 8 : Synthèse des concepts
+# Synthèse des concepts \(exercice facultatif\)
 
 ## OBJECTIFS :
 
