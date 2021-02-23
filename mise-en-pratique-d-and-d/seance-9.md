@@ -25,15 +25,23 @@ En d'autres termes, la classe Personnage, ne contiendra que ce qui permet de man
 ```sql
 CREATE TABLE `Personnage` (
   `id` int(11) NOT NULL,
-  `typePersonnage` varchar(50) NOT NULL,
+  `typePersonnage` varchar(30) NOT NULL,
   `nbPtDeVie` int(11) NOT NULL,
-  `force` int(11) NOT NULL,
+  `nbPtDeForce` int(11) NOT NULL,
   `x` int(11) NOT NULL,
   `y` int(11) NOT NULL,
   `attributs` text NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-ALTER TABLE `Artiste` ADD PRIMARY KEY (`id`);
-ALTER TABLE `Artiste` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- Index pour les tables déchargées
+--
+
+--
+-- Index pour la table `Personnage`
+--
+ALTER TABLE `Personnage`
+  ADD PRIMARY KEY (`id`);
 ```
 {% endcode %}
 

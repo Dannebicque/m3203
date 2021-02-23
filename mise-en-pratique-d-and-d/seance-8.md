@@ -25,17 +25,25 @@ Nous mettrons également en place le principe [d'autoloader](https://www.php.net
 
 La classe Abstraite Affichage permet d'afficher le plateau avec les personnages.
 
+{% file src="../.gitbook/assets/affichage.php" caption="Classe Affichage.php" %}
+
 ### La feuille de style
 
 Le fichier styles.css à placer dans un répertoire assets permet de mettre en forme le plateau.
+
+{% file src="../.gitbook/assets/styles.css" caption="Feuille de style" %}
 
 ### L'interface Personnage
 
 Le fichier iPersonnage est l'interface que votre classe Personnage devra implémenter.
 
+{% file src="../.gitbook/assets/ipersonnage.php" caption="Interface Personnage" %}
+
 ### Fichier application
 
 Le fichier seance8.php est le fichier application qui permet de tester votre code et vos classes.
+
+{% file src="../.gitbook/assets/seance8 \(1\).php" caption="Fichier application" %}
 
 ## Les classes à écrire
 
@@ -45,7 +53,7 @@ La classe personnage est abstraite et permet de définir globalement les personn
 
 * $typePersonnage, contiendra la "race" du personnage
 * $nbPtDeVie, contiendra le nombre de point de vie du personnage. Par défaut 100.
-* $force, contiendra la force du personnage. Par défaut 100.
+* $nbPtDeForce, contiendra la force du personnage. Par défaut 100.
 * $x, $y, contiendra la position du personnage sur un plateau.
 * $nbPersonnages, propriété de classe, contiendra le nombre de personnages dans la partie.
 * $attributs, est un tableau contenant les attributs du personnages \(Arme, Protection ou Magie\)
