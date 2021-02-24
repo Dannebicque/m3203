@@ -109,3 +109,23 @@ Cette classe possède les méthodes suivantes :
 
 * affiche\(\) qui affiche les informations du pouvoir
 
+## Quelques éléments
+
+### Méthode addAttribut\(\)
+
+La méthode addAttribut doit vérifier un nombre et un type d'attribut selon le type de personnage.  Pour faire la vérification il est possible d'utiliser le test "[instanceof](https://www.php.net/manual/fr/language.operators.type.php)" comme dans l'exemple suivant \(qui fonctionne pour la classe Elfe\):
+
+```php
+    public function addAttribut($attribut)
+    {
+        if ($attribut instanceof Magie)
+        {
+            $this->attributs[] = $attribut;
+        } else {
+            echo 'Uniquement des attributs de magie sont possible';
+        }
+    }
+```
+
+Lorsqu'il s'agit de compter un nombre limite, vous pouvez, par exemple avoir des propriétés privées qui permettent de garder un compteur à jour.
+
