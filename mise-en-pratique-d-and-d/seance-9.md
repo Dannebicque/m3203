@@ -49,26 +49,47 @@ ALTER TABLE `Personnage`
 
 {% code title="seance9.php" %}
 ```php
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Seance 9 - Manipulation de base de données</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <title>Séance 9</title>
 </head>
 <body>
-<h1>Manipulation de base de données et d'Artiste</h1>
 <?php
-    //... mettre l'autloader
-    $am = new ArtisteManager('localhost', 'root', 'root', 'm3203');
-    $artiste = new Artiste(array('nom' => 'Conan Doyle', 'prenom' => 'Arthur', 'datenaissance' => '01/01/1800', 'specialite' => 'Auteur', 'image' => 'doyle.jpg'));
-    $id = $am->addArtiste($artiste);
-    echo '<p>Artiste ajouté avec l\'id numéro '.$id.'</p>';
-    $artiste2 = $am->getById($id);
-    echo '<p>'.$artiste2->sePresente().'</p>';
-?>
-<h1>Affichage de tous les artistes</h1>
-<?php
-    echo $am->afficheAll();
+spl_autoload_register(function ($class_name) {
+    require $class_name . '.php';
+});
+
+$pm = new PersonnageManager('localhost', 'root', 'root', 'm3203');
+$perso1 = new Gobelin();
+$perso1->place(2, 3);
+
+$id = $pm->addPersonnage($perso1);
+echo '<p>Personnage ajouté avec l\'id numéro '.$id.'</p>';
+
+$perso2 = $pm->getById($id);
+Affichage::addPersonnage($perso2);
+Affichage::affichePlateau();
+
+$perso3 = new Elfe();
+$perso3->place(5, 7);
+$att1 = new Magie('Invisibilité', 15, 15);
+$att2 = new Magie('Feu', 0,30);
+
+$perso3->addAttribut($att1);
+$perso3->addAttribut($att2);
+$id = $pm->addPersonnage($perso3);
+echo '<p>Personnage ajouté avec l\'id numéro '.$id.'</p>';
+
+$perso4 = $pm->getById($id);
+Affichage::addPersonnage($perso4);
+echo $perso4->afficherAttributs();
+Affichage::affichePlateau();
 ?>
 </body>
 </html>
@@ -88,16 +109,47 @@ Le schéma ci-dessous, illustre, sur un autre exemple, le principe que nous souh
 
 ![Principe de fonctionnement d&apos;un Manager](../.gitbook/assets/principe.png)
 
-#### La classe ArtisteManager
+#### La classe PersonnageManager
 
-La classe ArtisteManager contiendra les méthodes suivantes :
+La classe Personnagemanager contiendra les méthodes suivantes :
 
 * `addPersonnage($personnage)` : L’argument de cette méthode est une instance de la classe Personnage \(ou de ses filles\). Elle génère une requête `‘INSERT INTO...’` et l’exécute. Elle permet l’ajout d'un Artiste dans la table. Cette méthode retourne le dernier id inséré \([lastInsertId](http://php.net/manual/fr/pdo.lastinsertid.php)\) 
 * `getById($id)` : L’argument permet de sélectionner l’enregistrement que l’utilisateur de l’application souhaite modifier. Elle est donc appelée par l’application. Cette méthode retourne une instance de la classe Personnage dont les propriétés sont initialisées avec les valeurs du Personnage sélectionné.   
-* `updatePersonnage($personnage)` : L’argument de cette méthode est une instance de la classe Artiste. Elle génère une requête `‘UPDATE ...’` et l’exécute. Elle permet la modification de l’enregistrement concerné.  
 * `getAll()` : Cette méthode construit un tableau contenant tous les Personnages de la table. Chaque élément du tableau est une instance de la classe Personnage dont les propriétés sont issues de chaque enregistrement de la table Personnage.  
 
 La classe PersonnageManager contiendra une propriété privée qui est la connexion à la base de données. Cette connexion sera initialisée par le constructeur.
+
+### Quelques éléments
+
+#### Méthode addPersonnage
+
+Comme la propriété attributs est un tableau d'objet, on doit utiliser le concept de serialization qui permet de transformer un objet \(ou un tableau\), en une chaîne de caractères. Pour utiliser et stocker ce résultat dans la BDD, il faut écrire la requête en utilisation la "préparation" et non le code SQL plus classique \(problème d'incompatibilité entre la chaîne produite et la syntaxe\).
+
+Le code de la requête d'insertion pourrait donc être :
+
+```php
+$sth = $this->db->prepare('INSERT INTO Personnage (typePersonnage, nbPtDeVie, nbPtDeForce, x, y, attributs) VALUES (:getTypePersonnage, :getNbPtDeVie, :getForce, :getX, :getY, :attributs);');
+$sth->execute([
+    ':getTypePersonnage' => $personnage->getTypePersonnage(),
+    ':getNbPtDeVie' => $personnage->getNbPtDeVie(),
+    ':getForce' => $personnage->getForce(),
+    ':getX' => $personnage->getX(),
+    ':getY' => $personnage->getY(),
+    ':attributs' => serialize($personnage->getAttributs())
+]);
+```
+
+#### Méthode getById
+
+Cette méthode doit récupérer un enregistrement en fonction de l'id.
+
+Cet enregistrement peut, par construction être un Humain, un Efle ou un Gobelin. il faudra donc veiller à créer le bon objet selon le type de personnage.
+
+Pour récupérer les données des attributs \(qui ont été sérializé\), vous pouvez utiliser la syntaxe suivante :
+
+```php
+$personnage->setAttributs(unserialize($data['attributs'], [true]));
+```
 
 ### Travail à Faire
 
