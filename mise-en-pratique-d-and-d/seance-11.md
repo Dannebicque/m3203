@@ -70,9 +70,37 @@ Le troisième lien pointe vers l'affichage du plateau en se basant sur les donn�
 
 Le fichier vous est donné.
 
+{% code title="afficher\_plateau.php" %}
 ```php
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <title>Séance 11 | Afficher plateau</title>
+</head>
+<body>
+<?php
+spl_autoload_register(function ($class_name) {
+    require $class_name . '.php';
+});
+
+$pm = new PersonnageManager('localhost', 'root', 'root', 'm3203');
+$personnages = $pm->getAll();
+foreach ($personnages as $personnage)
+{
+    Affichage::addPersonnage($personnage);
+}
+Affichage::affichePlateau();
+?>
+</body>
+</html>
 
 ```
+{% endcode %}
 
 Vous devrez modifier la ligne suivante dans Affichage.php
 
