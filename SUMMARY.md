@@ -40,15 +40,6 @@
 * [Séance G : Finalisation](ancien-cas-pratique/seance-g.md)
 * [Séance 16 : TP Noté](ancien-cas-pratique/seance-16.md)
 
-## Corrections Séances 1-8
-
-* [Séance 1](corrections-seances-1-8/seance-1.md)
-* [Séance 2](corrections-seances-1-8/seance-2.md)
-* [Séance 3](corrections-seances-1-8/seance-3.md)
-* [Séance 4](corrections-seances-1-8/seance-4.md)
-* [Séance 5](corrections-seances-1-8/seance-5.md)
-* [Séance 6](corrections-seances-1-8/seance-6.md)
-
 ## PHPStorm
 
 * [Installation de PHPStorm](phpstorm/installation-de-phpstorm.md)
