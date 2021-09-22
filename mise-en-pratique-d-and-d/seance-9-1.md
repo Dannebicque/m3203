@@ -27,11 +27,81 @@ La classe Abstraite Affichage permet d'afficher le plateau avec les personnages.
 
 {% file src="../.gitbook/assets/affichage.php" caption="Classe Affichage.php" %}
 
+{% code title="Affichage.php" %}
+```php
+<?php
+
+
+abstract class Affichage
+{
+    protected static $listePersonnage = [];
+    const LONGUEUR_PLATEAU = 8;
+    const LARGEUR_PLATEAU = 8;
+    const MAX_PERSONNAGE = 4;
+
+    public static function addPersonnage($personnage)
+    {
+        if (Personnage::$nbPersonnages < self::MAX_PERSONNAGE) {
+            self::$listePersonnage[] = $personnage;
+        } else {
+            echo '<p>Trop de personnage ! Impossible d\'ajouter ' .$personnage->getTypePersonnage().'</p>';
+        }
+
+    }
+
+    public static function affichePlateau()
+    {
+        $html = '<table class="plateau">';
+        for ($i = 1; $i <= self::LONGUEUR_PLATEAU; $i++) {
+            $html .= '<tr>';
+            for ($j = 1; $j <= self::LARGEUR_PLATEAU; $j++) {
+                $html .=  '<td>';
+                foreach (self::$listePersonnage as $perso)
+                {
+                    if ($perso->getX() == $i && $perso->getY() == $j)
+                    {
+                        $html .= $perso->affichePersonnage();
+                    }
+                }
+                $html .=  '</td>';
+            }
+            $html .= '</tr>';
+        }
+        $html .= '</table>';
+        echo $html;
+    }
+}
+
+```
+{% endcode %}
+
 ### La feuille de style
 
 Le fichier styles.css à placer dans un répertoire assets permet de mettre en forme le plateau.
 
 {% file src="../.gitbook/assets/styles.css" caption="Feuille de style" %}
+
+{% code title="styles.css" %}
+```css
+.plateau td{
+    border:1px solid darkgray;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+
+.force {
+    font-size: 10px;
+    color:blue;
+}
+
+.ptdevie {
+    font-size: 10px;
+    color:darkgreen;
+}
+
+```
+{% endcode %}
 
 ### L'interface Personnage
 
@@ -39,11 +109,97 @@ Le fichier iPersonnage est l'interface que votre classe Personnage devra implém
 
 {% file src="../.gitbook/assets/ipersonnage.php" caption="Interface Personnage" %}
 
+{% code title="iPersonnage.php" %}
+```php
+<?php
+
+interface iPersonnage
+{
+    public function place($x, $y);
+    public function deplaceX($x = 1);
+    public function deplaceY($y = 1);
+    public function affichePersonnage();
+    public function addAttribut($attributs);
+}
+
+```
+{% endcode %}
+
 ### Fichier application
 
 Le fichier seance8.php est le fichier application qui permet de tester votre code et vos classes.
 
 {% file src="../.gitbook/assets/seance8 \(1\).php" caption="Fichier application" %}
+
+{% code title="seance9.php" %}
+```php
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>Séance 9</title>
+</head>
+<body>
+<?php
+require 'iPersonnage.php';
+require 'Personnage.php';
+require 'Elfe.php';
+require 'Gobelin.php';
+require 'Humain.php';
+require 'Attribut.php';
+require 'Arme.php';
+require 'Magie.php';
+require 'Protection.php';
+require 'Affichage.php';
+
+
+$perso1 = new Gobelin();
+$perso1->place(2, 3);
+Affichage::addPersonnage($perso1);
+
+$perso2 = new Elfe();
+$perso2->place(5, 6);
+Affichage::addPersonnage($perso2);
+
+$perso3 = new Humain();
+$perso3->place(6, 7);
+Affichage::addPersonnage($perso3);
+
+$perso4 = new Humain();
+$perso4->place(1, 2);
+Affichage::addPersonnage($perso4);
+Affichage::affichePlateau();
+
+//Ajout des attributs
+
+$att1 = new Arme('Epée', 10);
+$att2 = new Arme('Hache', 15);
+$att3 = new Arme('Massue', 20);
+
+$att4 = new Protection('Bouclier', 10);
+$att5 = new Magie('Invisibilité', 15, 15);
+$att6 = new Magie('Feu', 0,30);
+
+$perso1->addAttribut($att2);
+$perso1->addAttribut($att3);
+
+$perso3->addAttribut($att1);
+$perso3->addAttribut($att4);
+
+$perso2->addAttribut($att5);
+$perso2->addAttribut($att6);
+
+echo $perso1->afficherAttributs();
+echo $perso2->afficherAttributs();
+echo $perso3->afficherAttributs();
+?>
+</body>
+</html>
+
+```
+{% endcode %}
 
 ## Les classes à écrire
 
