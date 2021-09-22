@@ -20,13 +20,15 @@
 
 * [Description générale](mise-en-pratique-d-and-d/description-generale.md)
 * [Planning - Organisation](mise-en-pratique-d-and-d/planning-organisation.md)
-* [Séance 8](mise-en-pratique-d-and-d/seance-8.md)
-* [Séance 9](mise-en-pratique-d-and-d/seance-9.md)
-* [Séance 10](mise-en-pratique-d-and-d/seance-10.md)
-* [Séance 11](mise-en-pratique-d-and-d/seance-11.md)
-* [Séance 12](mise-en-pratique-d-and-d/seance-12.md)
-* [Séance 13](mise-en-pratique-d-and-d/seance-13.md)
-* [Séance 14](mise-en-pratique-d-and-d/seance-14.md)
+* [Séance 9](mise-en-pratique-d-and-d/seance-9-1.md)
+* [Séance 10](mise-en-pratique-d-and-d/seance-10-1.md)
+* [Séance 11](mise-en-pratique-d-and-d/seance-11-1.md)
+* [Séance 12](mise-en-pratique-d-and-d/seance-12-1.md)
+* [Séance 13](mise-en-pratique-d-and-d/seance-13-1.md)
+* [Séance 14](mise-en-pratique-d-and-d/seance-14-1.md)
+* [Séance 15](mise-en-pratique-d-and-d/seance-15.md)
+* [Séance 16 - TP Noté](mise-en-pratique-d-and-d/seance-16-tp-note.md)
+* [Séance 17 - Evaluation](mise-en-pratique-d-and-d/seance-17-evaluation.md)
 
 ## Ancien cas pratique
 
