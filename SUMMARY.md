@@ -14,7 +14,7 @@
 * [Séance 5 : Héritage & Encapsulation](decouverte/seance-5.md)
 * [Séance 6 : Héritage multiple](decouverte/seance-6.md)
 * [Séance 7 : Interfaces](decouverte/seance-7.md)
-* [Synthèse des concepts \(exercice facultatif\)](decouverte/synthese-des-concepts-exercice-facultatif.md)
+* [Séance 8 : Synthèse des concepts](decouverte/synthese-des-concepts-exercice-facultatif.md)
 
 ## Mise en Pratique D&D
 
