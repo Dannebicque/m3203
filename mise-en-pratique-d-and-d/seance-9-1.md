@@ -9,7 +9,7 @@ description: >-
 {% hint style="info" %}
 ### Notation
 
-Cet exercice sera à faire valider en fin de séance **obligatoirement**.
+Cet exercice sera **à faire valider en fin de séance obligatoirement**.
 
 * 0, rien n'est fait
 * 1, début d'exercice, mais non fonctionnel
@@ -18,6 +18,10 @@ Cet exercice sera à faire valider en fin de séance **obligatoirement**.
 {% endhint %}
 
 Nous mettrons également en place le principe [d'autoloader](https://www.php.net/manual/fr/language.oop5.autoload.php) afin que toutes les classes nécessaires soit chargées automatiquement dans notre projet.
+
+{% hint style="danger" %}
+C'est à vous de vous manifester auprès de l'enseignant pour la validation de la séance. Aucun validation a posteriori des séances.
+{% endhint %}
 
 ## Les éléments à votre disposition
 
@@ -127,7 +131,7 @@ interface iPersonnage
 
 ### Fichier application
 
-Le fichier seance8.php est le fichier application qui permet de tester votre code et vos classes.
+Le fichier seance9.php est le fichier application qui permet de tester votre code et vos classes.
 
 {% file src="../.gitbook/assets/seance8 \(1\).php" caption="Fichier application" %}
 
