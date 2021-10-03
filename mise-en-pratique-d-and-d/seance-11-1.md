@@ -101,7 +101,7 @@ Ci-dessus les trois fichiers de traitement pour tester vos formulaires.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fichier de traitement de la séance 10</title>
+    <title>Fichier de traitement de la séance 11</title>
 </head>
 <body>
 <h1>Fichier "traitement1.php" du premier formulaire de la séance 10</h1>
@@ -130,7 +130,7 @@ echo '<li> Ville : '.$villes[$_POST['ville']].'</li>';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fichier de traitement de la séance 10</title>
+    <title>Fichier de traitement de la séance 11</title>
 </head>
 <body>
 <h1>Fichier "traitement2.php" du deuxième formulaire de la séance 10</h1>
@@ -152,7 +152,7 @@ echo '<li> Password : '.$_GET['password'].'</li>';
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fichier de traitement de la séance 10</title>
+    <title>Fichier de traitement de la séance 11</title>
 </head>
 <body>
 <h1>Fichier "traitement3.php" du troisième formulaire de la séance 10</h1>
