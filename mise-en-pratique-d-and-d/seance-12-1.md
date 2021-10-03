@@ -17,7 +17,7 @@ Exploiter la classe Formulaire, et les classes permettant la gestion de.la BDD p
 
 ## Fichier de test 
 
-{% code title="seance11.php" %}
+{% code title="seance12.php" %}
 ```php
 <!doctype html>
 <html lang="fr">
@@ -25,7 +25,7 @@ Exploiter la classe Formulaire, et les classes permettant la gestion de.la BDD p
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Séance 11</title>
+  <title>Séance 12</title>
 </head>
 <body>
 <?php

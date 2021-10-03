@@ -19,12 +19,12 @@ En d'autres termes, la classe Personnage, ne contiendra que ce qui permet de man
 
 ### A disposition
 
-* Un fichier seance9.sql à intégrer dans votre base de données.
+* Un fichier seance10.sql à intégrer dans votre base de données.
 
-{% code title="seance9.sql" %}
+{% code title="seance10.sql" %}
 ```sql
 CREATE TABLE `Personnage` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `typePersonnage` varchar(30) NOT NULL,
   `nbPtDeVie` int(11) NOT NULL,
   `nbPtDeForce` int(11) NOT NULL,
@@ -45,9 +45,9 @@ ALTER TABLE `Personnage`
 ```
 {% endcode %}
 
-* Un fichier seance9.php à tester
+* Un fichier seance10.php à tester
 
-{% code title="seance9.php" %}
+{% code title="seance10.php" %}
 ```php
 <!doctype html>
 <html lang="fr">
@@ -57,7 +57,7 @@ ALTER TABLE `Personnage`
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/styles.css">
 
-  <title>Séance 9</title>
+  <title>Séance 10</title>
 </head>
 <body>
 <?php
@@ -100,6 +100,20 @@ Affichage::affichePlateau();
 {% hint style="danger" %}
 **Vous devez faire valider le bon fonctionnement en fin de séance**
 {% endhint %}
+
+### Quelques explications sur l'Autoloader
+
+Vous constaterez que nous n'avons pas de "require" pour chacune des classes dans le fichier seance10.php, pour autant vos classes seront accessibles. On utilise le mécanisme d'autoload de PHP qui permet d'éviter d'avoir des requires quand on utilise la POO. Cela s'avère très pratique quand nous avons beaucoup de classes à gérer.
+
+```php
+spl_autoload_register(function ($class_name) {
+    require $class_name . '.php';
+});
+```
+
+Le code ci-dessus assure le lien avec tous les fichiers nécessaires. En fait, à chaque fois que vous aller utiliser une classe \(new Classe ou Classe::...\), PHP, va essayer de trouver un fichier qui se nomme Classe.php et automatiquement en faire un require pour l'intégrer.
+
+Contrainte de cette solution, vous devez avoir un fichier par classe, et votre fichier doit se nommer exactement comme votre classe. Mais nous avons vu en cours, que cette contrainte est en fait une bonne pratique. 
 
 ### A faire
 
@@ -154,5 +168,5 @@ $personnage->setAttributs(unserialize($data['attributs'], [true]));
 ### Travail à Faire
 
 * Ecrire la classe PersonnageManager
-* Faire fonctionner la classe PersonnageManager avec le fichier seance9.php
+* Faire fonctionner la classe PersonnageManager avec le fichier seance10.php
 

@@ -216,7 +216,7 @@ La classe personnage est abstraite et permet de définir globalement les personn
 * $nbPtDeForce, contiendra la force du personnage. Par défaut 100.
 * $x, $y, contiendra la position du personnage sur un plateau.
 * $nbPersonnages, propriété de classe, contiendra le nombre de personnages dans la partie.
-* $attributs, est un tableau contenant les attributs du personnages \(Arme, Protection ou Magie\)
+* $attributs, est un tableau contenant les attributs du personnages \(Arme, Protection ou Magie\). Chaque attribut est un objet, c'est donc un tableau d'objets
 
 Toutes les méthodes décrites dans l'interface doivent être implémentées.
 

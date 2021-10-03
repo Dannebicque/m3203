@@ -31,7 +31,7 @@ Pour cette séance, vous avez à votre disposition :
 * Un fichier contenant les interfaces que vous devez respecter. Ce fichier sera à inclure dans vos différentes classes.
 
 {% hint style="danger" %}
-**Vous devez faire valider le bon fonctionnement de seance10.php en fin de séance**
+**Vous devez faire valider le bon fonctionnement de seance11.php en fin de séance**
 {% endhint %}
 
 ### Classe formulaire : Description des méthodes
@@ -50,15 +50,15 @@ interface iFormulaire {
 ```
 {% endcode %}
 
-* Un fichier seance10.php qui vous permettra de tester le fonctionnement de vos classes.
+* Un fichier seance11.php qui vous permettra de tester le fonctionnement de vos classes.
 
-{% code title="seance10.php" %}
+{% code title="seance11.php" %}
 ```php
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Seance 10 - Génération de formulaires</title>
+    <title>Seance 11 - Génération de formulaires</title>
 </head>
 <body>
 <?php

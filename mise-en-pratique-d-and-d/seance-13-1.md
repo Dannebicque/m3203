@@ -13,13 +13,13 @@ Cet exercice sera à faire valider en fin de séance **obligatoirement**.
 
 ## Terminer les séances précédentes
 
-N'oubliez pas d'ajouter la gestion des attributs avec un manager \(voir séance 9\)
+N'oubliez pas d'ajouter la gestion des attributs avec un manager \(voir séance 10\)
 
 ## Gérer les déplacements
 
 En vous basant sur le fichier ci-dessous \(à compléter\), permettre le choix d'un personnage et de saisir son déplacement.
 
-{% code title="seance12.php" %}
+{% code title="seance13.php" %}
 ```php
 <!doctype html>
 <html lang="fr">
@@ -28,7 +28,7 @@ En vous basant sur le fichier ci-dessous \(à compléter\), permettre le choix d
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/styles.css">
-  <title>Séance 12</title>
+  <title>Séance 13</title>
 </head>
 <body>
 <?php
