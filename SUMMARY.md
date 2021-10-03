@@ -30,6 +30,16 @@
 * [Séance 16 - TP Noté](mise-en-pratique-d-and-d/seance-16-tp-note.md)
 * [Séance 17 - Evaluation](mise-en-pratique-d-and-d/seance-17-evaluation.md)
 
+## Corrections
+
+* [Séance 1](corrections/seance-1.md)
+* [Séance 2](corrections/seance-2.md)
+* [Séance 3](corrections/seance-3.md)
+* [Séance 4](corrections/seance-4.md)
+* [Séance 5](corrections/seance-5.md)
+* [Séance 6](corrections/seance-6.md)
+* [Séance 8](corrections/seance-8.md)
+
 ## Ancien cas pratique
 
 * [Description générale](ancien-cas-pratique/description-generale.md)
